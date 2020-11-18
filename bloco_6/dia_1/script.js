@@ -41,7 +41,7 @@ function validate (event) {
     //se  o erro for diferente de vazio, se vier vazio o campo está ok
     if (erro != '' ) {
         //variável que vai armazenar todos os erros
-        erros += '${erro}\n'
+        erros += `${erro}\n`;
     }
     //selecionar todos os input text do formulário e criar um laço -> verificar se estão vazios
     let inputsText = document.querySelectorAll('input[type=text');
@@ -51,14 +51,22 @@ function validate (event) {
             if (input.required){
                 //se o valor 'required' tiver vazio
                 if (input.value === '') {
-                    //retorna o erro ... 'name' está vazio
-                    erros += 'O campo ${input.name} é obrigatório \n';
+                    input.classList.add("error");
+                    erros += `O campo ${input.name} é obrigatório\n`;
+                  }
+                  if (input.minlength && input.value.length < input.minlength) {
+                    input.classList.add("error");
+                    erros += `O campo ${input.name} deve possuir no mínimo ${input.minlength} caracteres\n`;
+                  }
                 }
-                // se os campos tiverem valores diferentes do minimo vai retornar erro para a linha 42
-                if  (input.minlength && input.value.length < input.minlength) {
-                    erros += 'O campo ${input.name} deve possuir no mínimo ${input.minlength} caracteres \n';
+              }
+            
+              if (erros !== '') {
+                event.preventDefault();
+                alert(erros);
+              } else {
+                for (let index = 0; index < inputsText.length; index += 1) {
+                  inputsText[index].classList.remove("error");
                 }
-            }
-    }
-    alert(erros);
-};
+              }
+            };
