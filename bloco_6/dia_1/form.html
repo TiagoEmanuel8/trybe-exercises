@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Curriculo</h1>
+    <form action="" method="GET" novalidate>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+                <label for="input-name"> Nome
+                    <input type="text" name="nome" id="input-name" maxlength="40" required >
+                </label>
+                <br>
+                <label for="input-email"> Email
+                    <input type="email" id="input-email"name="email" id="input-email" maxlength="50" required>
+                </label>
+                <br>
+                <label for="input-cpf">CPF
+                    <input type="text" id="input-cpf" maxlength="11" required>
+                </label>
+                <br>
+                <label for="input-endereco">Endereço
+                    <input type="text" id="input-endereco" maxlength="200" required>
+                </label>
+                <br>
+                <label for="input-cidade">Cidade
+                    <input type="text" id="input-cidade" maxlength="28" required>
+                </label>
+                <br>
+                <label for="select-estado">Estado
+                    <select name="estado" id="select-estado" >
+                        <option value="">selecione um estado</option>
+                    </select>
+                </label>
+                <fieldset>
+                    <legend>Moradia</legend>
+                        <label for='input-casa'> Casa
+                            <input type="radio" name='moradia' id='input-casa' checked>
+                        </label>
+                        <label for='input-apartamento'> Apartamento
+                            <input type="radio" name='moradia' id='input-apartamento'>
+                        </label>
+                </fieldset>
+        </fieldset>
+        <fieldset>
+            <legend>Seu último emprego Emprego</legend>
+            <label for="input-curriculo">Resumo do currículo
+                <textarea name="curriculo" id="input-curriculo" maxlength="1000" cols="30" rows="10" required>
+                </textarea>
+            </label>
+            <label for="input-cargo">Cargo
+                <textarea name="curriculo" id="input-cargo" maxlength="40" cols="30" required>
+                </textarea>
+            </label>
+            <label for="input-descricao">Descrição do cargo 
+                <textarea name="descricao" id="input-descricao" maxlength="500" cools="30" required> 
+                </textarea>
+            </label>
+            <label for="input-data-ini">Data de inicio
+                <input type="text" id="input-data-ini" name="data-ini" minlength="10" maxlength="10" placeholder="DD//MM/AAAA" required>
+            </label>
+        </fieldset>
+        <button type="submit" id="submit">Enviar</button>
+    </form>
+
+ 
+
+    <script src="script.js"></script>
+</body>
+</html>
