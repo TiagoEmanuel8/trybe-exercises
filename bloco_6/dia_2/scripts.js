@@ -7,17 +7,17 @@ for (let index = 0; index < estados.length; index += 1) {
     option.value = criarEstados;
     captureEstados.appendChild(option);
 };
-function validateData () {
-    let data = document.querySelector('#input-data-ini').value;
-    let dataArray = data.split('/');
-    let dia = parseInt(dataArray[0]);
-    let mes = parseInt(dataArray[1]);
-    let ano = parseInt(dataArray[2]);
-    if (!(dia > 0 && dia <= 31 && mes > 0 && mes <= 12 && ano > 0)) {
-       return 'Data inválida, reveja os dados inseridos e tente novamente';
-    }
-    return '';
-}
+// function validateData () {
+//     let data = document.querySelector('#input-data-ini').value;
+//     let dataArray = data.split('/');
+//     let dia = parseInt(dataArray[0]);
+//     let mes = parseInt(dataArray[1]);
+//     let ano = parseInt(dataArray[2]);
+//     if (!(dia > 0 && dia <= 31 && mes > 0 && mes <= 12 && ano > 0)) {
+//        return 'Data inválida, reveja os dados inseridos e tente novamente';
+//     }
+//     return '';
+// }
 
 let captureButton = document.querySelector('#submit');
 captureButton.addEventListener('click', validate);

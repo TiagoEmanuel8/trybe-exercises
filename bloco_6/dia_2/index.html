@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+    <link rel="stylesheet" href="dist/css/DatePickerX.min.css"> 
+    <script src="dist/js/DatePickerX.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+
 </head>
-<body>
+<body>f
     <section class="section has-text-centered">
         <h1 class="title">Curriculo</h1>
         <h3 class="subtitle">Dados Pessoais</h3>
@@ -35,7 +40,7 @@
                     </label>
                     <br>
                     <div class="control">
-                        <div class="select">
+                        <div class="select is-rounded select">
                             <label for="select-estado">Estado
                                 <select name="estado" id="select-estado" >
                                     <option value="">selecione um estado</option>
@@ -45,6 +50,7 @@
                     </div>
             </div>
         </div>
+        <br>
                     <h3>Moradia</h3>
                     <div class="control">
                         <label class="radio" for='input-casa'> Casa
@@ -76,9 +82,19 @@
                         </label>
                     </fieldset>
                     <button class="button is-primary" type="submit" id="submit">Enviar</button>
+                    <button class="button is-danger" type="submit" id="submit">Cancelar</button>
                 </div>
             </div>
     </form>
     <script src="scripts.js"></script>
+    <script src="dist/js/DatePickerX.min.js"></script>
+    <script src="js/just-validate.min.js"></script>
+   
+    <script>
+         document.getElementById('data').DatePickerX.init({
+             format: 'dd/mm/yyyy'
+         });
+    </script>
+   
 </body>
 </html>
