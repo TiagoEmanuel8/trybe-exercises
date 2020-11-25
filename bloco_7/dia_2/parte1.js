@@ -33,11 +33,11 @@ const order = {
       total: 60,
     },
   };
-  /*
+  
   const customerInfo = (order) => {
     console.log(`Olá ${order.order.delivery.deliveryPerson}, entrega para: ${order.name}, Telefone ${order.phoneNumber}, R. ${order.address.street} Nº: ${order.address.number}, AP: ${order.address.apartment}.`)
   }
-  customerInfo(order); */
+  customerInfo(order);
 
 
 const orderModifier = (order) => {
@@ -48,7 +48,7 @@ const orderModifier = (order) => {
     order.order.flavor['mussarela'] = {amount: 1, price: 25};
     order.order.flavor['calabresa'] = {amount: 1, price: 25};
     //acessando as chaves do objeto criado
-    const pizzas = Object.keys(order.order.pizza) ;
+    const pizzas = Object.keys(order.order.flavor);
     //acessando a bebida
     const soda = order.order.drinks.coke.type; 
     //atualizando o valor do pedido
