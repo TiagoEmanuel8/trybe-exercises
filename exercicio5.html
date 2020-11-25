@@ -1,0 +1,24 @@
+<!--A lógica foi criar um botão que diga quantas vezes foi clicado, e tudo isso deve aparecer no documento html-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio5-Trybe</title>
+</head>
+<body>
+    <button id="btn">Clique em mim</button>
+    <h3 id="text-here"></h3>
+    <script>
+            let numberClicks = 0;
+            const text = document.getElementById('text-here')
+            const eventButton = document.getElementById('btn');
+            eventButton.addEventListener('click', () => {
+                const paragraph = document.createElement('h4');
+                let click = numberClicks += 1;
+                paragraph.innerText = `Fui clicado ${click} vezes`;
+                text.appendChild(paragraph);
+             });     
+    </script>
+</body>
+</html>
