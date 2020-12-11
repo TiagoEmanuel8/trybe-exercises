@@ -1,3 +1,4 @@
+// vale destacar essa forma de escrever subpropriedades de um objeto, dentro de uma função, bastante interessante
 const planetDistanceFromSun = ({ name, distanceFromSun: { value, measurementUnit } }) =>
   `${name} is ${value} ${measurementUnit} apart from the Sun`;
 

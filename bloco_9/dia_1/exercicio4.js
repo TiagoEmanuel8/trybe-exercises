@@ -7,8 +7,9 @@ const getMarsTemperature = () => {
 };
 
 const sendMarsTemperature = () => {
+  // 2 - forma de armazenar numa variável a temperatura gerada na função da linha 4
  const temperature = getMarsTemperature();
     setTimeout(() => console.log(`A temperatura em marte é de ${temperature} graus celsius`), messageDelay());
 };
-
+// 1 - chamada da função
 sendMarsTemperature(); 
