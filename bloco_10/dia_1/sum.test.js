@@ -11,6 +11,6 @@ describe ('Testando função sum', () => {
     it('Testando a função sum passando uma string como parâmetro', () => {
         expect(() => {
             sum(4, '5');
-        }).toThrow('wparameters must be numbers');
+        }).toThrow('parameters must be numbers');
     });
 });
