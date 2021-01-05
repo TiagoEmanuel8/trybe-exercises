@@ -6,7 +6,7 @@ function sum(a, b) {
   }
   return a + b;
 }
-assert.strictEqual(typeof sum, 'function')
+assert.strictEqual(typeof sum, 'function') 
 assert.strictEqual(sum(4, 5), 9, '5 + 4 = 9');
 assert.strictEqual(sum(0, 0), 0, '0 + 0 = 0');
 //Porque a função não retorna o erro?f
