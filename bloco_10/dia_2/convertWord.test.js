@@ -1,0 +1,1 @@
+const uppercase = require('./convertWord.js')
