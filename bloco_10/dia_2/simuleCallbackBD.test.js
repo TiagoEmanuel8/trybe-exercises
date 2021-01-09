@@ -1,6 +1,6 @@
 const {findUserById, getUserName, users} = require('./simuleCallbackBD');
 
-// decribe('testando o acesso ao banco de dados', () => {
+describe('testando o acesso ao banco de dados', () => {
     it('Teste para descobrir se o usuário é encontrado', () => {
        expect.assertions(1)
         return getUserName(4)
@@ -14,7 +14,7 @@ const {findUserById, getUserName, users} = require('./simuleCallbackBD');
             expect(error).toEqual({error: 'User with 1 not found.'})
         })
     })
-// });
+});
 
 //Usando o resolves/rejects
 // describe('xablau', () => {
