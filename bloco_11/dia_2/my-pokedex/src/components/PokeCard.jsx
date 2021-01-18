@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export default class PokeCard extends React.Component {
+class PokeCard extends React.Component {
 
     render () {
         const {pokemon: { id, name, type, averageWeight, image, moreInfo }} = this.props;
@@ -19,3 +19,5 @@ export default class PokeCard extends React.Component {
         );
     }
 }
+
+export default PokeCard;
