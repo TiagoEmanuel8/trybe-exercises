@@ -62,19 +62,20 @@ const books = [
     releaseYear: 1928,
   },
 ];
-
 function authorBornIn1947() {
-    //usando o método antigo
-    for (let key in books) {
-        if (books[key].author.birthYear === 1947){
-            // console.log(books[key].author.birthYear);
-            return books[key].author.name;
-        }
-    }
+  // usando a aula de hoje
+  const findAuthor = books.find((find) => find.author.birthYear === 1947);
+  return findAuthor.author.name;
 
-    // usando a aula de hoje
-    const findAuthor = books.find((find) => find.author.birthYear === 1947);
-    return findAuthor.author.name;
 };
+
+    // //usando o método antigo
+    // for (let key in books) {
+    //     if (books[key].author.birthYear === 1947){
+    //         // console.log(books[key].author.birthYear);
+    //         return books[key].author.name;
+    //     }
+    // }
+
 
 assert.equal(authorBornIn1947(), 'Stephen King');
