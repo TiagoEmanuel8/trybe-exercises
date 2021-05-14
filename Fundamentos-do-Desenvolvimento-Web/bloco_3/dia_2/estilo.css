@@ -1,0 +1,31 @@
+h1{
+    font-size 65px;
+    color:orange;
+    font-family: sans-serif;
+    text-decoration:underline;
+}
+.classe{
+    background-color:palevioletred;
+}
+body{
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+}
+p{
+    font-weight: 600;
+    font-size: 3em;
+
+}
+#amarelo{
+    background-color: yellow;
+}
+#vermelho{
+    background-color:red;
+}
+#marrom{
+    background-color:brown;
+}
+ul{
+    font-style: italic;
+}
