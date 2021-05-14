@@ -1,0 +1,38 @@
+/*exercicio 11*/
+
+.tower-group-1 {
+    display: flex;
+    justify-content: space-between;
+    }
+    .tower-1-1 {
+    align-self: flex-end;
+    }
+    .tower-1-2 {
+    align-self: flex-start;
+    }
+    .tower-1-3 {
+    align-self: flex-end;
+    }
+    .tower-1-4 {
+    }
+
+/*exercicio 12*/
+.tower-group-1 {
+    display: flex;
+    justify-content: space-around;
+    }
+    .tower-1-1 {
+    align-self: center;
+    }
+    .tower-1-2 {
+    align-self: center;
+    }
+    .tower-1-3 {
+    align-self: center;
+    }
+    .tower-1-4 {
+    align-self: center;
+    }
+    .tower-1-5 {
+    align-self: center;
+    }
