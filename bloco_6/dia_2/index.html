@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+    <link rel="stylesheet" href="dist/css/DatePickerX.min.css"> 
+    <script src="dist/js/DatePickerX.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+
+</head>
+<body>f
+    <section class="section has-text-centered">
+        <h1 class="title">Curriculo</h1>
+        <h3 class="subtitle">Dados Pessoais</h3>
+    </section>
+    <form action="" method="GET" novalidate>
+        <div class="field">
+            <div class="control">
+                    <label for="input-name"> Nome
+                        <input class="input" type="text" name="nome" id="input-name" maxlength="40" required >
+                    </label>
+                    <br>
+                    <label for="input-email"> Email
+                        <input class="input" type="email" id="input-email"name="email" id="input-email" maxlength="50" required>
+                    </label>
+                    <br>
+                    <label for="input-cpf">CPF
+                        <input class="input" type="text" id="input-cpf" maxlength="11" required>
+                    </label>
+                    <br>
+                    <label for="input-endereco">Endereço
+                        <input class="input" type="text" id="input-endereco" maxlength="200" required>
+                    </label>
+                    <br>
+                    <label for="input-cidade">Cidade
+                        <input class="input" type="text" id="input-cidade" maxlength="28" required>
+                    </label>
+                    <br>
+                    <div class="control">
+                        <div class="select is-rounded select">
+                            <label for="select-estado">Estado
+                                <select name="estado" id="select-estado" >
+                                    <option value="">selecione um estado</option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <br>
+                    <h3>Moradia</h3>
+                    <div class="control">
+                        <label class="radio" for='input-casa'> Casa
+                            <input type="radio" name='moradia' id='input-casa' checked>
+                        </label>
+                    </div>
+                    <div class="control">
+                        <label class="radio" for='input-apartamento'> Apartamento
+                            <input type="radio" name='moradia' id='input-apartamento'>
+                        </label>
+                    </div>
+            <legend>Seu último emprego Emprego</legend>
+            <div class="field">
+                <div class="control">
+                        <label for="input-curriculo">Resumo do currículo
+                            <textarea class="textarea" name="curriculo" id="input-curriculo" maxlength="1000" cols="30" rows="10" required>
+                            </textarea>
+                        </label>
+                        <label for="input-cargo">Cargo
+                            <textarea class="textarea" name="curriculo" id="input-cargo" maxlength="40" cols="30" required>
+                            </textarea>
+                        </label>
+                        <label for="input-descricao">Descrição do cargo 
+                            <textarea class="textarea" name="descricao" id="input-descricao" maxlength="500" cools="30" required> 
+                            </textarea>
+                        </label>
+                        <label for="input-data-ini">Data de inicio
+                            <input type="text" id="input-data-ini" name="data-ini" minlength="10" maxlength="10" placeholder="DD//MM/AAAA" required>
+                        </label>
+                    </fieldset>
+                    <button class="button is-primary" type="submit" id="submit">Enviar</button>
+                    <button class="button is-danger" type="submit" id="submit">Cancelar</button>
+                </div>
+            </div>
+    </form>
+    <script src="scripts.js"></script>
+    <script src="dist/js/DatePickerX.min.js"></script>
+    <script src="js/just-validate.min.js"></script>
+   
+    <script>
+         document.getElementById('data').DatePickerX.init({
+             format: 'dd/mm/yyyy'
+         });
+    </script>
+   
+</body>
+</html>
