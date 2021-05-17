@@ -83,7 +83,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 10-1: _Primeiros passos no Jest_ :heavy_check_mark:
 - [x] 10-2: _Jest - Testes Assíncronos_ :heavy_check_mark:
 - [ ] 10-3: _Jest - Simulando comportamentos_
-- [x] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
+- [x] 10-4: _[Projeto - Jest Assíncrono e Mocking](https://github.com/tryber/sd-08-project-jest/pull/8)_ :heavy_check_mark:
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
@@ -91,31 +91,31 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 11-1: _'Hello, world!' no React!_
 - [ ] 11-2: _Componentes React_
-- [ ] 11-3: _[Projeto - Movie Cards Library]()_
+- [ ] 11-3: _[Projeto - Movie Cards Library](https://github.com/tryber/sd-08-project-movie-cards-library/pull/51)_ :heavy_check_mark:
 
 ##### Bloco 12: Componentes com Estado, Eventos e Formulários com React
 
 - [ ] 12-1: _Components com estado e evento_
 - [ ] 12-2: _Eventos e formulários no React_
-- [ ] 12-3: _[Projeto - Movie Cards Library Stateful]()_
+- [ ] 12-3: _[Projeto - Movie Cards Library Stateful](https://github.com/tryber/sd-08-project-movie-cards-library-stateful/pull/55)_ :heavy_check_mark:
 
 ##### Bloco 13: Ciclo de Vida de Componentes e React Router
 
 - [ ] 13-1: _Ciclo de vida de componentes em React_
 - [ ] 13-2: _React Router_
-- [ ] 13-3: _[Projeto - Movie Cards Library CRUD]()_
+- [ ] 13-3: _[Projeto - Movie Cards Library CRUD](https://github.com/tryber/sd-08-project-movie-cards-library-crud)_ :heavy_check_mark:
 
 ##### Bloco 14: Metodologias Ágeis
 
 - [ ] 14-1: _Metodologias Ágeis_
-- [ ] 14-2: _[Projeto - Frontend Online Store]()_
+- [ ] 14-2: _[Projeto - Frontend Online Store](https://github.com/tryber/sd-08-project-frontend-online-store/pull/115)_ :heavy_check_mark:
 
 ##### Bloco 15: Testes automatizados com React Testing Library
 
 - [ ] 15-1: _RLT - Primeiros passos_
 - [ ] 15-1: _RLT - Mocks e Inputs_
 - [ ] 15-2: _RLT - Testando React Router_
-- [ ] 15-3: _[Projeto - Testes em React]()_
+- [ ] 15-3: _[Projeto - Testes em React](https://github.com/tryber/sd-08-project-react-testing-library/pull/54)_ :heavy_check_mark:
 
 ##### Bloco 16: Gerenciamento de estado com Redux
 
@@ -124,30 +124,30 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 16-3: _React com Redux - Prática_
 - [ ] 16-4: _React com Redux - Parte 2_
 - [ ] 16-5: _Testes síncronos com React-Redux_
-- [ ] 16-6: _[Projeto - Trybe Wallet]()_
+- [ ] 16-6: _[Projeto - Trybe Wallet](https://github.com/tryber/sd-09-project-trybewallet/pull/9)_ :heavy_check_mark:
 
 ##### Bloco 17: Projeto Jogo de Trívia
 
-- [ ] 17-1: _[Projeto - Jogo de Trivia]()_
+- [ ] 17-1: _[Projeto - Jogo de Trivia](https://github.com/tryber/sd-09-project-trivia-react-redux/pull/390)_ :heavy_check_mark:
 
 ##### Bloco 18: Context API & React Hoocks
 
 - [ ] 18-1: _Context API do React_
 - [ ] 18-2: _React Hooks - useState e useContext_
 - [ ] 18-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [ ] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/tryber/sd-09-project-starwars-planets-search/pull/101)_ :heavy_check_mark:
 
 ##### Bloco 19: Projeto App de Receitas
 
-- [ ] 19-1: _[Projeto - App de Receitas]()_
+- [ ] 19-1: _[Projeto - App de Receitas](https://github.com/tryber/sd-09-project-recipes-app/pull/69)_ :heavy_check_mark:
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ##### Bloco 20: Introdução a SQL
 
-- [ ] 20-1: _Banco de dados SQL_
-- [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma específica_
+- [x] 20-1: _Banco de dados SQL_
+- [x] 20-2: _Encontrando dados em um banco de dados_
+- [x] 20-3: _Filtrando dados de forma específica_
 - [ ] 20-4: _Manipulando tabelas_
 - [ ] 20-5: _[Projeto - All For One]()_
 
