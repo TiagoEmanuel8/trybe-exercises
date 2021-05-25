@@ -110,3 +110,28 @@ SELECT
 FROM sakila.address
 GROUP BY district
 ORDER BY Quantidade DESC;
+
+-- 5
+  SELECT rating, AVG(length)
+    FROM sakila.film
+    GROUP BY rating;
+
+USE sakila;
+SELECT 
+    rating, 
+    AVG(length) AS Duracao
+FROM
+    film
+GROUP BY rating
+HAVING Duracao BETWEEN 115 AND 121.50
+ORDER BY Duracao DESC;
+
+-- 6
+SELECT * FROM sakila.film;
+SELECT 
+    rating, SUM(replacement_cost) AS custo
+FROM
+    sakila.film
+GROUP BY rating
+HAVING custo > 3950.50
+ORDER BY custo DESC;
