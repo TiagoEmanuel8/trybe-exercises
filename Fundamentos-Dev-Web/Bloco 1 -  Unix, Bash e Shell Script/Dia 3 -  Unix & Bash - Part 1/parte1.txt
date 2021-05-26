@@ -1,0 +1,29 @@
+ mkdir unix_tests && cd unix_tests
+ 
+touch trybe.txt
+  
+cp trybe.txt trybe_backup.txt
+  
+mv trybe.txt cachorro.txt
+  
+mkdir backup
+  
+mv trybe_backup.txt backup
+  
+mkdir backup2
+  
+mv backup/trybe_backup.txt backup2
+  
+rmdir backup
+  
+pwd && ls -l .
+  
+rm -rd backup
+  
+clear
+  
+head -n 5 skills.txt
+  
+tail -n 4 skills.txt
+  
+rm *.txt

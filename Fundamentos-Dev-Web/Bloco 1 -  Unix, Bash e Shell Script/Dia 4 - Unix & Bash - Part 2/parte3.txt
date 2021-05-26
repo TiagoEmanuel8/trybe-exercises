@@ -1,0 +1,14 @@
+ps
+
+sleep 30 &
+
+ps | grep sleep
+
+sleep 30
+bg
+
+sleep 300 &
+
+sleep 200
+
+ps | grep sleep
