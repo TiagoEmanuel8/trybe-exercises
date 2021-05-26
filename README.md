@@ -85,7 +85,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Desenvolvimento Front-end :heavy_check_mark:
 
-##### Bloco 11: Introdução à React
+##### Bloco 11: Introdução à React :heavy_check_mark:
 
 - [x] 11-1: _'Hello, world!' no React!_
 - [x] 11-2: _Componentes React_
@@ -158,7 +158,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 22: Normalização e Modelagem de Banco de Dados
 
-- [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
+- [x] 22-1: _Transformando ideias em um modelo de banco de dados_
 - [ ] 22-2: _Normalização, Formas Normais e Dumps_
 - [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
 - [ ] 22-3: _[Projeto - One For All]()_
