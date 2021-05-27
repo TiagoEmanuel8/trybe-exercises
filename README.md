@@ -117,8 +117,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 16: Gerenciamento de estado com Redux
 
-- [ ] 16-1: _Introdução ao Redux_
-- [ ] 16-2: _React com Redux_
+- [x] 16-1: _Introdução ao Redux_
+- [x] 16-2: _React com Redux_
 - [ ] 16-3: _React com Redux - Prática_
 - [ ] 16-4: _React com Redux - Redux Thunk_
 - [ ] 16-5: _Testes síncronos com React-Redux_
@@ -152,14 +152,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 21: Funções SQL, Joins e Subqueriesame
 
 - [x] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs e UNIONs_
+- [x] 21-2: _Descomplicando JOINs e UNIONs_
 - [ ] 21-3: _Stored Routines & Subqueries_
 - [x] 21-4: _[Projeto - Vocabulary Booster](https://github.com/tryber/sd-09-mysql-vocabulary-booster/pull/69)_
 
 ##### Bloco 22: Normalização e Modelagem de Banco de Dados
 
 - [x] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _Normalização, Formas Normais e Dumps_
+- [x] 22-2: _Normalização, Formas Normais e Dumps_
 - [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
 - [ ] 22-3: _[Projeto - One For All]()_
 
