@@ -135,7 +135,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 18-3: _React Hooks - useEffect e Hooks customizados_
 - [x] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/tryber/sd-09-project-starwars-planets-search/pull/101)_
 
-##### Bloco 19: Projeto App de Receitas
+##### Bloco 19: Projeto App de Receitas :heavy_check_mark:
 
 - [x] 19-1: _[Projeto - App de Receitas](https://github.com/tryber/sd-09-project-recipes-app/pull/69)_
 
