@@ -44,7 +44,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-5: _Fundamentos - Javascipt - Projetos_
 - [ ] 5-5: _[Projeto - Meme Generator]()_
 - [x] 5-6: _[Projeto - Arte com Pixels](https://github.com/tryber/sd-08-project-pixels-art/pull/80)_
-- [x] 5-7: _[Projeto - Lista de tarefas](https://github.com/tryber/sd-08-project-todo-list/pull/20)_ :heavy_check_mark:
+- [x] 5-7: _[Projeto - Lista de tarefas](https://github.com/tryber/sd-08-project-todo-list/pull/20)_
 
 ##### Bloco 6: HTML & CSS: Forms, Flexbox e Responsivo :heavy_check_mark:
 
