@@ -103,9 +103,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 13-2: _React Router_
 - [x] 13-3: _[Projeto - Movie Cards Library CRUD](https://github.com/tryber/sd-08-project-movie-cards-library-crud/pull/86)_
 
-##### Bloco 14: Metodologias Ágeis
+##### Bloco 14: Metodologias Ágeis :heavy_check_mark:
 
-- [ ] 14-1: _Metodologias Ágeis_
+- [x] 14-1: _Metodologias Ágeis_
 - [x] 14-2: _[Projeto - Frontend Online Store](https://github.com/tryber/sd-08-project-frontend-online-store/pull/115)_
 
 ##### Bloco 15: Testes automatizados com React Testing Library
