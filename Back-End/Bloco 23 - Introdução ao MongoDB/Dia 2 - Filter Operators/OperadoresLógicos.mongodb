@@ -1,0 +1,36 @@
+db.restaurants.find().limit(1).pretty();
+
+// 1 - Selecione e faça a contagem dos restaurantes que não possuem avaliação menor ou igual a 5 , essa query também deve retornar restaurantes que não possuem o campo avaliação.
+
+db.restaurants.count({
+  rating: { $not: {
+    $lte: 4
+  }}
+});
+
+// 2 - Selecione e faça a contagem dos restaurante em que a avaliação seja maior ou igual a 6 , ou restaurantes localizados no bairro Brooklyn .
+
+db.restaurants.count({
+  $or: [
+    {rating: {$lte: 6}}, 
+    {borough: {$eq: 'Brooklyn'}
+  }]
+});
+
+// 3 - Selecione e faça a contagem dos restaurantes localizados nos bairros Queens , Staten Island e Broklyn e possuem avaliação maior que 4 .
+
+db.restaurants.count({
+  $and: [
+    {borough: {$in: ['Queens', 'Staten Island', 'Brooklyn']}},
+    {rating: {$gt: 4}}
+  ]
+});
+
+// 4 - Selecione e faça a contagem dos restaurantes onde nem o campo avaliação seja igual a 1 , nem o campo culinária seja do tipo American .
+
+db.restaurants.count({
+  $nor: [
+    {rating: {$eq: 1}},
+    {cuisine: {$eq: 'American'}}
+  ]
+});
