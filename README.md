@@ -57,7 +57,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 7: Introdução à JavaScript ES6 & Testes Unitários :heavy_check_mark:
 
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [x] 7-2: _JavaScript ES6 - Objects_
+- [] 7-2: _JavaScript ES6 - Objects_
 - [x] 7-3: _Testes unitários em JavaScript_
 - [x] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/tryber/sd-08-project-js-unit-tests/pull/24)_
 
