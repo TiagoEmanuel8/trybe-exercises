@@ -1,0 +1,224 @@
+use('class');
+db.movies.find();
+
+// 1 - Adicione a categoria "superhero" ao filme Batman .
+
+use('class');
+db.movies.updateOne(
+  { title: { $eq: 'Batman' } },
+  { $push: { category: 'superhero'} },
+  { upsert: true }
+);
+
+use('class');
+db.movies.find(
+  { title: { $eq: 'Batman' } }
+).pretty();
+
+// 2 - Utilizando o modificador $each , adicione as categorias "villain" e "comic-based" ao filme Batman
+
+use('class');
+db.movies.updateOne(
+  { title: { $eq: 'Batman' } },
+  { $push: { category: 
+    { $each: [ 'villain', 'comic-based' ] } } 
+  }
+);
+
+use('class');
+db.movies.find(
+  { title: { $eq: 'Batman' } }
+).pretty();
+
+// 3 - Remova a categoria "action" do filme Batman .
+
+use('class');
+db.movies.updateOne(
+  { title: { $eq: 'Batman'} },
+  { $pop: { category: -1} }
+);
+
+
+use('class');
+db.movies.find(
+  { title: { $eq: 'Batman' } }
+).pretty();
+
+// 4 - Remova o primeiro elemento do array category do filme Batman .
+
+use('class');
+db.movies.updateOne(
+  { title: { $eq: 'Batman'} },
+  { $pop: { category: -1} }
+);
+
+
+use('class');
+db.movies.find(
+  { title: { $eq: 'Batman' } }
+).pretty();
+
+// 5 - Remova o último elemento do array category do filme Batman .
+
+use('class');
+db.movies.updateOne(
+  { title: { $eq: 'Batman' } },
+  { $pop: { category: 1} }
+);
+
+use('class');
+db.movies.find(
+  { title: { $eq: 'Batman' } }
+).pretty();
+
+// 6 - Adicione o elemento "action" ao array category do filme Batman , garantindo que esse valor não se duplique.
+
+use('class');
+db.movies.updateOne(
+  { title: { $eq: 'Batman' } },
+  { $addToSet: { category: 'action'} }
+);
+
+use('class');
+db.movies.find(
+  { title: { $eq: 'Batman' } }
+).pretty();
+
+// 7 - Adicione a categoria "90's" aos filmes Batman e Home Alone .
+
+use('class');
+db.movies.updateMany(
+  { title: { $in: [ 'Batman', 'Home Alone' ] } },
+  { $push: { category: "90's" } },
+);
+
+use('class');
+db.movies.find(
+  { title: { $in: [ 'Batman', 'Home Alone' ] } },
+).pretty();
+
+// 8 - Crie um array de documentos chamado cast para o filme Home Alone com os seguintes dados
+
+use('class');
+db.movies.updateOne(
+  { title: { $eq: 'Home Alone' } },
+  { $push: { cast: {
+        $each : [
+        {
+          "actor": "Macaulay Culkin",
+          "character": "Kevin"
+        },
+        {
+          "actor": "Joe Pesci",
+          "character": "Harry"
+        },
+        {
+          "actor": "Daniel Stern"
+        }
+        ]
+      } 
+    } 
+  }
+);
+
+use('class');
+db.movies.find(
+  { title: { $eq: 'Home Alone' } },
+).pretty();
+
+// 9 - Adicione o campo character com o valor Marv ao array de cast em que o campo actor seja igual a Daniel Stern no filme Home Alone .
+
+use('class');
+db.movies.updateOne(
+  { 
+    title: { $eq: 'Home Alone' },
+    'cast.actor': { $eq: 'Daniel Stern' }
+  },
+  {
+    $set: { 'cast.$.character': 'Marv'}
+  }
+);
+
+use('class');
+db.movies.find(
+  { title: { $eq: 'Home Alone' } },
+).pretty();
+
+// 10 - Crie um array de documentos chamado cast para o filme Batman com os seguintes dados:
+
+use('class');
+db.movies.updateMany(
+  { title: { $eq: 'Batman' } },
+  { $push: {
+    cast: {
+      $each: [
+          {
+            "character": "Batman"
+          },
+          {
+            "character": "Alfred"
+          },
+          {
+            "character": "Coringa"
+          }
+       ]
+      }
+    }
+  }
+);
+
+use('class');
+db.movies.find(
+  { title: { $eq: 'Batman' } },
+).pretty();
+
+// 11 - Produza três querys para o filme Batman 
+
+use('class');
+db.movies.updateOne(
+   {
+     title: { $eq: 'Batman' },
+    'cast.character': { $eq: 'Batman' }
+   },
+   {
+     $push: {'cast.$.actor': 'Christian Bale'}
+   }
+);
+
+
+use('class');
+db.movies.find(
+  { title: { $eq: 'Batman' } },
+).pretty();
+
+use('class');
+db.movies.updateOne(
+  {
+    title: { $eq: 'Batman'},
+    'cast.character': { $eq: 'Alfred'}
+  },
+  {
+    $push: {'cast.$.actor': 'Michael Caine'}
+  }
+);
+
+use('class');
+db.movies.find(
+  { title: { $eq: 'Batman' } },
+).pretty();
+
+use('class');
+db.movies.updateOne(
+  {
+    title: { $eq: 'Batman'},
+    'cast.character': { $eq: 'Coringa'}
+  },
+  {
+    $push: { 'cast.$.actor': 'Heath Ledger'}
+  }
+);
+
+use('class');
+db.movies.find(
+  { title: { $eq: 'Batman' } },
+).pretty();
