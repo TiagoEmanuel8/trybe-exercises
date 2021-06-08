@@ -152,7 +152,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 21-1: _Funções mais usadas no SQL_
 - [x] 21-2: _Descomplicando JOINs e UNIONs_
-- [ ] 21-3: _Stored Routines & Subqueries_
+- [x] 21-3: _Stored Routines & Subqueries_
 - [x] 21-4: _[Projeto - Vocabulary Booster](https://github.com/tryber/sd-09-mysql-vocabulary-booster/pull/69)_
 
 ##### Bloco 22: Normalização e Modelagem de Banco de Dados :heavy_check_mark:
