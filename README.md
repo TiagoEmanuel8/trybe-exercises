@@ -29,7 +29,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 4: Introdução - Introdução à JavaScript e Lógica de Programação :heavy_check_mark:
 
-- [x] 4-1: _JavaScript - Primeiros passos_
+- [] 4-1: _JavaScript - Primeiros passos_
 - [x] 4-2: _JavaScript - Array e loop For_
 - [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [x] 4-4: _JavaScript - Objetos e funções_
@@ -37,7 +37,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 5: Javascript: DOM, Eventos e Web Storage :heavy_check_mark:
 
-- [x] 5-1: _JavaScript - DOM e seletores_
+- [] 5-1: _JavaScript - DOM e seletores_
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
 - [x] 5-3: _JavaScript - Eventos_
 - [x] 5-4: _JavaScript - Web Storage_
@@ -168,12 +168,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 23-2: _Filter Operators_
 - [x] 23-3: _[Projeto - Data Flights](https://github.com/tryber/sd-09-mongodb-dataflights/pull/60)_
 
-##### Bloco 24: MongoDB: Updates Simples e Complexos
+##### Bloco 24: MongoDB: Updates Simples e Complexos :heavy_check_mark:
 
 - [x] 24-1: _Updates Simples_
-- [] 24-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 24-4: _[Projeto - Commerce]()_
+- [x] 24-2: _Updates Complexos - Arrays - Parte 1_
+- [x] 24-3: _Updates Complexos - Arrays - Parte 2_
+- [x] 24-4: _[Projeto - Commerce]()_
 
 ##### Bloco 25: MongoDB: Aggregation Framework
 
