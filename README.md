@@ -30,7 +30,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 4: Introdução - Introdução à JavaScript e Lógica de Programação :heavy_check_mark:
 
 - [x] 4-1: _JavaScript - Primeiros passos_
-- [x] 4-2: _JavaScript - Array e loop For_
+- [] 4-2: _JavaScript - Array e loop For_
 - [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [x] 4-4: _JavaScript - Objetos e funções_
 - [x] 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-08-project-playground-function/tree/tiagoEmanuel-project-playground-function)_
