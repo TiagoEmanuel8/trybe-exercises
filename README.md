@@ -54,7 +54,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 6-5: _CSS Responsivo - Mobile First_
 - [x] 6-6: _[Projeto - Página inicial do Facebook](https://github.com/tryber/sd-08-project-facebook-signup/pull/121)_
 
-##### Bloco 7: Introdução à JavaScript ES6 & Testes Unitários :heavy_check_mark:
+##### Bloco 7: Introdução à JavaScript ES6 & Testes Unitários
 
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 7-2: _JavaScript ES6 - Objects_
