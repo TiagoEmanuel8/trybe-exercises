@@ -127,7 +127,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 17-1: _[Projeto - Jogo de Trivia](https://github.com/tryber/sd-09-project-trivia-react-redux/pull/390)_
 
-##### Bloco 18: Context API & React Hoocks
+##### Bloco 18: Context API & React Hoocks :heavy_check_mark:
 
 - [ ] 18-1: _Context API do React_
 - [ ] 18-2: _React Hooks - useState e useContext_
