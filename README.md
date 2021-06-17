@@ -45,7 +45,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-6: _[Projeto - Arte com Pixels](https://github.com/tryber/sd-08-project-pixels-art/pull/80)_
 - [x] 5-7: _[Projeto - Lista de tarefas](https://github.com/tryber/sd-08-project-todo-list/pull/20)_
 
-##### Bloco 6: HTML & CSS: Forms, Flexbox e Responsivo :heavy_check_mark:
+##### Bloco 6: HTML & CSS: Forms, Flexbox e Responsivo
 
 - [x] 6-1: _HTML & CSS - Forms_
 - [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
