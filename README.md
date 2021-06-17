@@ -75,7 +75,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 9-2: _JavaScript Promises_
 - [x] 9-3: _[Projeto - Carrinho de Compras](https://github.com/tryber/sd-08-project-shopping-cart/pull/58)_
 
-##### Bloco 10: Testes automatizados com Jest :heavy_check_mark:
+##### Bloco 10: Testes automatizados com Jest
 
 - [x] 10-1: _Primeiros passos no Jest_
 - [x] 10-2: _Jest - Testes Assíncronos_
