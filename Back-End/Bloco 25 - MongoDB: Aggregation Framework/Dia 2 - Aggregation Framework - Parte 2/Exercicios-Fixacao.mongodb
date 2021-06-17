@@ -1,0 +1,203 @@
+use ('agg_example');
+
+db.clients.findOne();
+
+db.products.findOne();
+
+db.transactions.findOne();
+
+db.transactions.findOne();
+
+// 1 - Selecione todos os clientes com as suas respectivas transações feitas;
+
+db.clients.findOne();
+db.transactions.findOne();
+
+db.clients.aggregate([
+  {
+    $lookup: {
+      from: 'transactions',
+      let: { client_name: '$name' },
+      pipeline: [{
+        $match: {
+          $expr: {
+            $eq: [ '$from', '$$client_name' ]
+          }
+        }
+      }],
+      as: 'transacoes'
+    }
+  }
+]);
+
+// 2 - Selecione os quatro primeiros clientes com as suas respectivas transações recebidas ordenados pelo estado em ordem alfabética;
+
+db.clients.aggregate([
+  {
+    $lookup: {
+      from: 'transactions',
+      let: { client_name: '$name' },
+      pipeline: [{
+        $match: {
+          $expr: {
+            $eq: [ '$from', '$$client_name' ]
+          }
+        }
+      }],
+      as: 'transacoes'
+    }
+  },
+  { $limit: 4 },
+  { $sort: { State: 1 } },
+]);
+
+// 3 - Selecione todos os cliente do estado da "Florida" e suas respectivas transações recebidas.
+
+
+db.clients.findOne();
+db.transactions.findOne();
+
+db.clients.aggregate([
+  { $match: { State: "Florida" } },
+  {
+    $lookup: {
+      from: 'transactions',
+      let: { client_name: '$name' },
+      pipeline: [{
+        $match: {
+          $expr: {
+            $eq: [ '$to', '$$client_name' ]
+          }
+        }
+      }],
+      as: 'transacoes'
+    }
+  },
+]);
+
+// 4 - Calcule qual o custo total de cada produto, considerando o preço de compra e os impostos.
+
+db.products.findOne();
+
+db.products.aggregate([
+  { $project: {
+    _id: 0, name: 1, total_price: { $add: [
+      '$taxes', '$purchase_price'
+    ]},
+  }},
+]);
+
+// 5 - Calcule qual o lucro total de cada produto, considerando o preço de compra, os impostos e seu valor de venda.
+
+db.products.aggregate([
+  {
+    $project: {
+      _id: 0, name: 1, profit: {
+        $subtract: [
+          { $add: ['$taxes', '$purchase_price'] },
+          '$taxes'
+        ]
+      }
+    }
+  }
+]);
+
+// 6 - Retorne o menor número inteiro relativo ao preço de venda de cada produto;
+
+db.products.findOne();
+
+db.products.aggregate([
+  {
+    $project: {
+      _id: 0, name: 1, less_price: {
+        $floor: '$sale_price'
+      }
+    }
+  }
+]);
+
+// 7 - Retorne o maior número inteiro relativo ao lucro total sobre cada produto.
+
+db.products.aggregate([
+  {
+    $project: {
+      _id: 0, name: 1, total_price: {
+        $ceil: '$sale_price'
+      }
+    }
+  }
+]);
+
+// 8 - Calcule o valor absoluto do lucro total de cada produto.
+
+db.products.aggregate([
+  {
+    $project: {
+      _id: 0,
+      name: 1,
+      delta: {
+        $abs: {
+          $subtract: [
+            "$sale_price",
+            { $add: ["$taxes", "$purchase_price"] }
+          ]
+        }
+      }
+    }
+  }
+]);
+
+// 9 - Calcule qual o valor total em estoque de cada produto, considerando o preço de venda e a quantidade;
+
+db.products.aggregate([
+  {
+    $project: {
+      _id: 0,
+      name: 1,
+      profit: {
+        $multiply: ["$sale_price", "$quantity"]
+      }
+    }
+  }
+]);
+
+// 10 - Calcule qual será o lucro total de cada produto caso todo o estoque seja vendido.
+
+db.products.aggregate([
+  {
+    $project: {
+      _id: 0,
+      name: 1,
+      total_profit: {
+        $multiply: [
+          {
+            $subtract: [
+              "$sale_price",
+              { $add: ["$taxes", "$purchase_price"] }
+            ]
+          }, 
+          "$quantity"
+        ]
+      }
+    }
+  }
+]);
+
+// 11 - Calcule qual será o preço de venda de cada produto caso haja uma promoção de 50% de desconto.
+
+db.products.aggregate([
+  {
+    $project: {
+      _id: 0,
+      name: 1,
+      new_price: {
+        $subtract: [
+          "$sale_price", {
+            $multiply: [{ $divide: [50, 100] }, "$sale_price"
+            ]
+          }
+        ]
+      }
+    }
+  }
+]);
