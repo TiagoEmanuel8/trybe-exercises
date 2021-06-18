@@ -13,13 +13,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 1-3: _Unix & Bash - Part 1_ 
 - [x] 1-4: _Unix & Bash - Part 2_
 
-##### Bloco 2: Git, GitHub e internet
+##### Bloco 2: Git, GitHub e internet :heavy_check_mark:
 
 - [x] 2-1: _O que é e para que serve?_ 
 - [x] 2-2: _Entendendo os comandos_
 - [x] 2-3: _Internet - Entendendo como ela funciona_
 
-##### Bloco 3: Introdução - HTML & CSS
+##### Bloco 3: Introdução - HTML & CSS :heavy_check_mark:
 
 - [x] 3-1: _HTML & CSS - Estruturas de página_
 - [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
@@ -27,7 +27,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 3-4: _HTML Semântico_
 - [x] 3-5: _[Projeto - HTML & CSS](https://github.com/tryber/sd-08-project-lessons-learned/tree/tiagoemanuel-lessons-learned-project)_
 
-##### Bloco 4: Introdução - Introdução à JavaScript e Lógica de Programação
+##### Bloco 4: Introdução - Introdução à JavaScript e Lógica de Programação :heavy_check_mark:
 
 - [x] 4-1: _JavaScript - Primeiros passos_
 - [x] 4-2: _JavaScript - Array e loop For_
@@ -35,7 +35,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 4-4: _JavaScript - Objetos e funções_
 - [x] 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-08-project-playground-function/tree/tiagoEmanuel-project-playground-function)_
 
-##### Bloco 5: Javascript: DOM, Eventos e Web Storage
+##### Bloco 5: Javascript: DOM, Eventos e Web Storage :heavy_check_mark:
 
 - [x] 5-1: _JavaScript - DOM e seletores_
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
@@ -127,7 +127,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 17-1: _[Projeto - Jogo de Trivia](https://github.com/tryber/sd-09-project-trivia-react-redux/pull/390)_
 
-##### Bloco 18: Context API & React Hoocks
+##### Bloco 18: Context API & React Hoocks :heavy_check_mark:
 
 - [ ] 18-1: _Context API do React_
 - [ ] 18-2: _React Hooks - useState e useContext_
@@ -179,7 +179,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 25-1: _Aggregation Framework - Parte 1_
 - [x] 25-2: _Aggregation Framework - Parte 2_
-- [ ] 25-3: _[Projeto - Aggregations]()_
+- [x] 25-3: _[Projeto - Aggregations](https://github.com/tryber/sd-09-mongodb-aggregations/pull/63)_
 
 ##### Bloco 26: Intro - Introdução ao desenvolvimento Web com NodeJS
 
