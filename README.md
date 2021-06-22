@@ -15,7 +15,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 2: Git, GitHub e internet :heavy_check_mark:
 
-- [x] 2-1: _O que é e para que serve?_ 
+- [] 2-1: _O que é e para que serve?_ 
 - [x] 2-2: _Entendendo os comandos_
 - [x] 2-3: _Internet - Entendendo como ela funciona_
 
@@ -50,8 +50,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 6-1: _HTML & CSS - Forms_
 - [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
 - [x] 6-3: _CSS Flexbox - Part 1_
-- [x] 6-4: _CSS Flexbox - Part 2_
-- [x] 6-5: _CSS Responsivo - Mobile First_
+- [] 6-4: _CSS Flexbox - Part 2_
+- [] 6-5: _CSS Responsivo - Mobile First_
 - [x] 6-6: _[Projeto - Página inicial do Facebook](https://github.com/tryber/sd-08-project-facebook-signup/pull/121)_
 
 ##### Bloco 7: Introdução à JavaScript ES6 & Testes Unitários :heavy_check_mark:
@@ -177,7 +177,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 25: MongoDB: Aggregation Framework :heavy_check_mark:
 
-- [X] 25-1: _Aggregation Framework - Parte 1_
+- [] 25-1: _Aggregation Framework - Parte 1_
 - [x] 25-2: _Aggregation Framework - Parte 2_
 - [x] 25-3: _[Projeto - Aggregations](https://github.com/tryber/sd-09-mongodb-aggregations/pull/63)_
 
@@ -185,7 +185,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 26-1: _NodeJS - Introdução_
 - [x] 26-2: _NodeJS - Fluxo Assíncrono_
-- [ ] 26-3: _NodeJS - Arquitetura_
+- [x] 26-3: _NodeJS - Testes com NodeJS_
 - [ ] 26-4: _Express: HTTP com Node.js_
 - [ ] 26-5: _Praticando Express_
 - [ ] 26-6: _Arquitetura de Software - Introdução ao MVC_
