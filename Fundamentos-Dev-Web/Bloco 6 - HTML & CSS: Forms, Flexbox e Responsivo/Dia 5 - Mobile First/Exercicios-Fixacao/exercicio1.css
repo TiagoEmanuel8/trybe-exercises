@@ -1,0 +1,31 @@
+body {
+  font-size: large;
+}
+
+.container-images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around
+}
+
+h1 {
+  font-size: xx-large;
+}
+/* h2 {
+
+} */
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+@media screen and (max-width: 460px) {
+  body {
+    background-color: #FFFACD;
+    margin: 4em;
+  }
+}
