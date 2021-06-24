@@ -10,7 +10,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 1: Unix, Bash e Shell Script :heavy_check_mark:
 
-- [x] 1-3: _Unix & Bash - Part 1_ 
+- [] 1-3: _Unix & Bash - Part 1_ 
 - [x] 1-4: _Unix & Bash - Part 2_
 
 ##### Bloco 2: Git, GitHub e internet :heavy_check_mark:
