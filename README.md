@@ -10,14 +10,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 1: Unix, Bash e Shell Script :heavy_check_mark:
 
-- [x] 1-3: _Unix & Bash - Part 1_ 
-- [x] 1-4: _Unix & Bash - Part 2_
+- [] 1-3: _Unix & Bash - Part 1_ 
+- [] 1-4: _Unix & Bash - Part 2_
 
 ##### Bloco 2: Git, GitHub e internet :heavy_check_mark:
 
 - [] 2-1: _O que é e para que serve?_ 
-- [x] 2-2: _Entendendo os comandos_
-- [x] 2-3: _Internet - Entendendo como ela funciona_
+- [] 2-2: _Entendendo os comandos_
+- [] 2-3: _Internet - Entendendo como ela funciona_
 
 ##### Bloco 3: Introdução - HTML & CSS :heavy_check_mark:
 
@@ -50,8 +50,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 6-1: _HTML & CSS - Forms_
 - [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
 - [x] 6-3: _CSS Flexbox - Part 1_
-- [] 6-4: _CSS Flexbox - Part 2_
-- [] 6-5: _CSS Responsivo - Mobile First_
+- [x] 6-4: _CSS Flexbox - Part 2_
+- [x] 6-5: _CSS Responsivo - Mobile First_
 - [x] 6-6: _[Projeto - Página inicial do Facebook](https://github.com/tryber/sd-08-project-facebook-signup/pull/121)_
 
 ##### Bloco 7: Introdução à JavaScript ES6 & Testes Unitários :heavy_check_mark:
