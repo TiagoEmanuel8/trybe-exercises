@@ -123,7 +123,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 16-5: _Testes síncronos com React-Redux_
 - [x] 16-6: _[Projeto - Trybe Wallet](https://github.com/tryber/sd-09-project-trybewallet/pull/9)_
 
-##### Bloco 17: Projeto Jogo de Trívia
+##### Bloco 17: Projeto Jogo de Trívia :heavy_check_mark:
 
 - [x] 17-1: _[Projeto - Jogo de Trivia](https://github.com/tryber/sd-09-project-trivia-react-redux/pull/390)_
 
