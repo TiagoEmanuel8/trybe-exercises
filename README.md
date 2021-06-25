@@ -90,7 +90,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 11-2: _Componentes React_
 - [x] 11-3: _[Projeto - Movie Cards Library](https://github.com/tryber/sd-08-project-movie-cards-library/pull/51)_
 
-##### Bloco 12: Componentes com Estado, Eventos e Formulários com React
+##### Bloco 12: Componentes com Estado, Eventos e Formulários com React :heavy_check_mark:
 
 - [x] 12-1: _Components com estado e evento_
 - [ ] 12-2: _Eventos e formulários no React_
