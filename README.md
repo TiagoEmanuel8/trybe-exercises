@@ -177,7 +177,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 25: MongoDB: Aggregation Framework :heavy_check_mark:
 
-- [] 25-1: _Aggregation Framework - Parte 1_
+- [x] 25-1: _Aggregation Framework - Parte 1_
 - [x] 25-2: _Aggregation Framework - Parte 2_
 - [x] 25-3: _[Projeto - Aggregations](https://github.com/tryber/sd-09-mongodb-aggregations/pull/63)_
 
