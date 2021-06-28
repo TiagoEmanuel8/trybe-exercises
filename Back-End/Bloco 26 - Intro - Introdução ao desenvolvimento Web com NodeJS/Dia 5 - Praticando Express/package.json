@@ -1,0 +1,21 @@
+{
+  "name": "26.5",
+  "version": "1.0.0",
+  "description": "Atividades do dia 26.5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js"
+  },
+  "author": "Yoneda <xyonedax@gmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-rescue": "^1.1.31",
+    "node-fetch": "^2.6.1"
+  }
+}
