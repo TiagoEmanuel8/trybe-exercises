@@ -90,7 +90,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 11-2: _Componentes React_
 - [x] 11-3: _[Projeto - Movie Cards Library](https://github.com/tryber/sd-08-project-movie-cards-library/pull/51)_
 
-##### Bloco 12: Componentes com Estado, Eventos e Formulários com React
+##### Bloco 12: Componentes com Estado, Eventos e Formulários com React :heavy_check_mark:
 
 - [x] 12-1: _Components com estado e evento_
 - [ ] 12-2: _Eventos e formulários no React_
@@ -114,7 +114,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 15-2: _RLT - Testando React Router_
 - [x] 15-3: _[Projeto - Testes em React](https://github.com/tryber/sd-08-project-react-testing-library/pull/54)_
 
-##### Bloco 16: Gerenciamento de estado com Redux
+##### Bloco 16: Gerenciamento de estado com Redux :heavy_check_mark:
 
 - [x] 16-1: _Introdução ao Redux_
 - [x] 16-2: _React com Redux_
@@ -123,7 +123,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 16-5: _Testes síncronos com React-Redux_
 - [x] 16-6: _[Projeto - Trybe Wallet](https://github.com/tryber/sd-09-project-trybewallet/pull/9)_
 
-##### Bloco 17: Projeto Jogo de Trívia
+##### Bloco 17: Projeto Jogo de Trívia :heavy_check_mark:
 
 - [x] 17-1: _[Projeto - Jogo de Trivia](https://github.com/tryber/sd-09-project-trivia-react-redux/pull/390)_
 
@@ -177,19 +177,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 25: MongoDB: Aggregation Framework :heavy_check_mark:
 
-- [] 25-1: _Aggregation Framework - Parte 1_
+- [x] 25-1: _Aggregation Framework - Parte 1_
 - [x] 25-2: _Aggregation Framework - Parte 2_
 - [x] 25-3: _[Projeto - Aggregations](https://github.com/tryber/sd-09-mongodb-aggregations/pull/63)_
 
-##### Bloco 26: Intro - Introdução ao desenvolvimento Web com NodeJS
+##### Bloco 26: Intro - Introdução ao desenvolvimento Web com NodeJS :heavy_check_mark:
 
 - [x] 26-1: _NodeJS - Introdução_
 - [x] 26-2: _NodeJS - Fluxo Assíncrono_
 - [x] 26-3: _NodeJS - Testes com NodeJS_
-- [ ] 26-4: _Express: HTTP com Node.js_
-- [ ] 26-5: _Praticando Express_
-- [ ] 26-6: _Arquitetura de Software - Introdução ao MVC_
-- [ ] 26-7: _[Projeto - Cookmaster]()_
+- [x] 26-4: _Express: HTTP com Node.js_
+- [x] 26-5: _Praticando Express_
+- [x] 26-6: _[Projeto - talker-manager]()_
 
 ##### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 
