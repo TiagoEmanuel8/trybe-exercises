@@ -102,22 +102,66 @@
 // Crie uma rota PUT /users/:name/:age .
 // Sua rota deve retornar o seguinte JSON: { "message": "Seu nome é <name> e você tem <age> anos de idade" }.
 
+// const express = require('express');
+// const bodyParser = require('body-parser');
+
+// const app = express();
+// app.use(bodyParser.json());
+// // 4.1 - Função que trata a url
+// const user = (req, res) => {
+//   const { name, age } = req.params; // Pega partes da url
+//   res.status(200).json({
+//     message: `Seu nome é ${name} e você tem ${age} anos de idade`
+//   });
+// };
+// // 4.2 - Definindo a rota do exercicio
+// // chamada => http PUT :3001/users/Tiago/20
+// app.put('/users/:name/:age', user);
+
+// app.listen(3001, () => {
+//   console.log('Aplicação ouvindo na porta 3001');
+// });
+
+//--------------------------------
+
+// Para os próximos quesitos
+
+// Utilize o modulo fs do Node para ler/escrever arquivos.
+// Caso algum erro ocorra, deve ser retornado um código 500 (Internal Server Error).
+// Caso dê tudo certo, a resposta deve voltar com status 200 OK 
+
 const express = require('express');
 const bodyParser = require('body-parser');
 
+const rescue = require("express-rescue");
+const { readSimpsons } = require('./readWriteSimpsons')
+
 const app = express();
 app.use(bodyParser.json());
-// 4.1 - Função que trata a url
-const user = (req, res) => {
-  const { name, age } = req.params; // Pega partes da url
-  res.status(200).json({
-    message: `Seu nome é ${name} e você tem ${age} anos de idade`
-  });
-};
-// 4.2 - Definindo a rota do exercicio
-// chamada => http PUT :3001/users/Tiago/20
-app.put('/users/:name/:age', user);
+
+// Exercicio 5 - Um simples fetch para o arquivo 'data'
+app.get('/simpsons', rescue(async (_req, res) => {
+  const simpsonsList = await readSimpsons();
+
+  res.status(200).json(simpsonsList);
+}));
+
+//-------------------------
+
+// Exercicio 6 - Um fetch que retorna o erro, caso o id não seja válido, e caso seja válido vai trazer o simpson correspondente
+app.get("/simpsons/:id", rescue(async (req, res) => {
+  const { id } = req.params;
+
+  const simpsonsList = await readSimpsons();
+
+  const mySimpson = simpsonsList.find(simpson => simpson.id === id);
+
+  if (!mySimpson) res.status(404).json({ message: "Simpson not found"});
+
+  res.status(200).json(mySimpson);
+}));
 
 app.listen(3001, () => {
-  console.log('Aplicação ouvindo na porta 3001');
+  console.log('Porta 3001, Ok!!!');
 });
+
