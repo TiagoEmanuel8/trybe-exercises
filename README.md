@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [] 3-4: _HTML Semântico_
-- [x] 3-5: _[Projeto - HTML & CSS](https://github.com/tryber/sd-08-project-lessons-learned/tree/tiagoemanuel-lessons-learned-project)_
+- [] 3-5: _[Projeto - HTML & CSS](https://github.com/tryber/sd-08-project-lessons-learned/tree/tiagoemanuel-lessons-learned-project)_
 
 ##### Bloco 4: Introdução - Introdução à JavaScript e Lógica de Programação :heavy_check_mark:
 
