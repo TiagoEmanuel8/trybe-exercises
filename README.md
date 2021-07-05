@@ -10,20 +10,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 1: Unix, Bash e Shell Script :heavy_check_mark:
 
-- [x] 1-3: _Unix & Bash - Part 1_ 
-- [x] 1-4: _Unix & Bash - Part 2_
+- [] 1-3: _Unix & Bash - Part 1_ 
+- [] 1-4: _Unix & Bash - Part 2_
 
 ##### Bloco 2: Git, GitHub e internet :heavy_check_mark:
 
 - [] 2-1: _O que é e para que serve?_ 
-- [x] 2-2: _Entendendo os comandos_
-- [x] 2-3: _Internet - Entendendo como ela funciona_
+- [] 2-2: _Entendendo os comandos_
+- [] 2-3: _Internet - Entendendo como ela funciona_
 
 ##### Bloco 3: Introdução - HTML & CSS :heavy_check_mark:
 
-- [x] 3-1: _HTML & CSS - Estruturas de página_
-- [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
-- [x] 3-3: _HTML & CSS - Seletores e posicionamento_
+- [] 3-1: _HTML & CSS - Estruturas de página_
+- [] 3-2: _HTML & CSS - Primeiros passos em CSS_
+- [] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [x] 3-4: _HTML Semântico_
 - [x] 3-5: _[Projeto - HTML & CSS](https://github.com/tryber/sd-08-project-lessons-learned/tree/tiagoemanuel-lessons-learned-project)_
 
