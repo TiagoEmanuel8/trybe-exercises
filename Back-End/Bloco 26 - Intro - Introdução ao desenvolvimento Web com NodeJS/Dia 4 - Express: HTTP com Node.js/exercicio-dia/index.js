@@ -1,15 +1,15 @@
 // Aprendi esse método de organizar com o Tiago Yoneda, obrigado !!!
 
 // Estrutura Básica
-// const express = require('express');
-// const bodyParser = require('body-parser');
+const express = require('express');
+const bodyParser = require('body-parser');
 
-// const app = express();
-// app.use(bodyParser.json());
+const app = express();
+app.use(bodyParser.json());
 
-// app.listen(3001, () => {
-//   console.log('Porta 3001, Ok!!!');
-// });
+app.listen(3001, () => {
+  console.log('Porta 3001, Ok!!!');
+});
 
 // -----------------------------------------------
 
@@ -31,8 +31,8 @@
 // // 1.3 => chamada => http GET :3001/ping
 // app.get('/ping', message);
 
-// app.listen(3001, () => {
-//   console.log('Aplicação ouvindo na porta 3001');
+// app.listen(3002, () => {
+//   console.log('Aplicação ouvindo na porta 3002');
 // });
 
 //---------------------------------------------
@@ -149,19 +149,19 @@ app.get('/simpsons', rescue(async (_req, res) => {
 //-------------------------
 
 // Exercicio 6 - Um fetch que retorna o erro, caso o id não seja válido, e caso seja válido vai trazer o simpson correspondente
-app.get("/simpsons/:id", rescue(async (req, res) => {
-  const { id } = req.params;
+// app.get("/simpsons/:id", rescue(async (req, res) => {
+//   const { id } = req.params;
 
-  const simpsonsList = await readSimpsons();
+//   const simpsonsList = await readSimpsons();
 
-  const mySimpson = simpsonsList.find(simpson => simpson.id === id);
+//   const mySimpson = simpsonsList.find(simpson => simpson.id === id);
 
-  if (!mySimpson) res.status(404).json({ message: "Simpson not found"});
+//   if (!mySimpson) res.status(404).json({ message: "Simpson not found"});
 
-  res.status(200).json(mySimpson);
-}));
+//   res.status(200).json(mySimpson);
+// }));
 
-app.listen(3001, () => {
-  console.log('Porta 3001, Ok!!!');
-});
+// app.listen(3001, () => {
+//   console.log('Porta 3001, Ok!!!');
+// });
 
