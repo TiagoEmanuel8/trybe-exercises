@@ -10,13 +10,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 1: Unix, Bash e Shell Script :heavy_check_mark:
 
-- [] 1-3: _Unix & Bash - Part 1_ 
-- [] 1-4: _Unix & Bash - Part 2_
+- [x] 1-3: _Unix & Bash - Part 1_ 
+- [x] 1-4: _Unix & Bash - Part 2_
 
 ##### Bloco 2: Git, GitHub e internet :heavy_check_mark:
 
-- [] 2-1: _O que é e para que serve?_ 
-- [] 2-2: _Entendendo os comandos_
+- [x] 2-1: _O que é e para que serve?_ 
+- [x] 2-2: _Entendendo os comandos_
 - [] 2-3: _Internet - Entendendo como ela funciona_
 
 ##### Bloco 3: Introdução - HTML & CSS :heavy_check_mark:
@@ -188,7 +188,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 26-3: _NodeJS - Testes com NodeJS_
 - [x] 26-4: _Express: HTTP com Node.js_
 - [x] 26-5: _Praticando Express_
-- [x] 26-6: _[Projeto - talker-manager]()_
+- [x] 26-6: _[Projeto - talker-manager](https://github.com/tryber/sd-09-project-talker-manager/pull/85)_
 
 ##### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 
