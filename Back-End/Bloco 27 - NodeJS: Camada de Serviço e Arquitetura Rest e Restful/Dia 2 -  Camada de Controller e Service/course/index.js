@@ -4,7 +4,7 @@
 // const bodyParser = require('body-parser');
 
 // // // 4 => A comunicação do index.js ocorre com o services
-// // const Author = require('./services/Author');
+// const Author = require('./services/Author');
 
 // const app = express();
 
