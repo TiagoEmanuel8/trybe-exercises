@@ -9,7 +9,7 @@ const listAll = async () => {
 const create = async (name, album) => {
 
   const findedSong = await songModel.findByNameAlbum(name, album);
-  
+  // Verificação para ver se já existe no BD
   if(findedSong) return false;
 
   const newSong = songModel.createSong(name, album);

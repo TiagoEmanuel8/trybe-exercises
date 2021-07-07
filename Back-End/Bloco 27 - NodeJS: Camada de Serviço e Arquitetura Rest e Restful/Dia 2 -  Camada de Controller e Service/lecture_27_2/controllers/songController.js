@@ -2,6 +2,7 @@ const SongModel = require('../models/songModel')
 const SongService = require('../services/songServices')
 
 const findAllSongs = async (_req, res, next) => {
+  // Essa maravilha de try/catch 'bane' o rescue
   try{
     const songs = await SongService.listAll();
 
@@ -20,6 +21,7 @@ const findOneSong = async (req, res, _next) => {
 }
 
 const createSong = async (req, res, _next) => {
+  // Capturar essas infos do corpo
   const {name, album} = req.body;
 
   const newSong = await SongService.create(name, album);
