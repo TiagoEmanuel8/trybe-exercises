@@ -190,20 +190,21 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 26-5: _Praticando Express_
 - [x] 26-6: _[Projeto - talker-manager](https://github.com/tryber/sd-09-project-talker-manager/pull/85)_
 
-##### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
+##### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful :heavy_check_mark:
 
 - [x] 27-1: _Arquitetura de Software - Camada de Model_
 - [x] 27-2: _Arquitetura de Software - Camada de Controller e Service_
 - [x] 27-3: _Arquitetura de web - Rest e Restful_
 - [x] 27.4: _Arquitetura de Software - Testando as Camadas_
-- [ ] 27-5: _[Projeto - Store Manager]()_
+- [x] 27-5: _[Projeto - Store Manager](https://github.com/tryber/sd-09-store-manager/pull/63)_
 
 
 ##### Bloco 28: Autenticação e Upload de Arquivos
 
 - [ ] 28-1: _NodeJS - JWT - (JSON Web Token)_
 - [ ] 28-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 28-3: _[Projeto - Cookmaster V2]()_
+- [ ] 28-3: _NodeJS - Testando APIs com Testes de Integração_
+- [ ] 28-3: _[Projeto - Cookmaster]()_
 
 ##### Bloco 29: Deployment
 
