@@ -203,7 +203,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 28-1: _NodeJS - JWT - (JSON Web Token)_
 - [x] 28-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 28-3: _NodeJS - Testando APIs com Testes de Integração_
+- [x] 28-3: _NodeJS - Testando APIs com Testes de Integração_
 - [ ] 28-3: _[Projeto - Cookmaster]()_
 
 ##### Bloco 29: Deployment
