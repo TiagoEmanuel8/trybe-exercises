@@ -12,7 +12,7 @@ const loginValidate = (req, res, next) => {
   const emailRegexCheck = /^([\w./+-]+)@([\w-]+\.)+([\w]{2,})$/i;
   if(!emailRegexCheck.test(email)) {
     return res.status(400).json({ message: "email incorrect" });
-  }
+  };
 
   next();
 };
