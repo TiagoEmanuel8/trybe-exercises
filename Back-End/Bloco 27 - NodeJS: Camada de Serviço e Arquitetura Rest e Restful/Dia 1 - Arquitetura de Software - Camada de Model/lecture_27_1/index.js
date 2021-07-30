@@ -1,16 +1,16 @@
 // 1 - Config básica do node
 const express = require('express')
 const bodyParser = require('body-parser')
-const characterModel = require('./model/mongoModel');
+const { getAll, findOne, create, exclude, edit } = require('./model/mongoModel');
 const app = express()
 const PORT = 3000
+
 app.use(bodyParser.json())
 
 // Read (Crud) - lista todos os personagens => união do model + node
 // Função que vai mostrar tudão no BD
-app.get('/characters', async (req, res) => {
-  const characters = await characterModel.getAll();
-
+app.get('/characters', async (_req, res) => {
+  const characters = await getAll();
   return res.status(200).json(characters)
 });
 
@@ -20,7 +20,7 @@ app.get('/characters/:id', async (req, res) => {
   // Pega o Id que foi passado por url
   const {id} = req.params;
   // Retorna só o 1º dado
- const character = await characterModel.findOne(id); 
+ const character = await findOne(id); 
   
   return res.status(200).json(character)
 });
@@ -31,7 +31,7 @@ app.post('/characters', async (req, res) => {
   // Vai pegar o que foi digitado no json durante a requisição
   const {name, cartoon} = req.body;
   // A partir disso vai passar esses valores pro BD
-  const newCharacter = await characterModel.create(name, cartoon)
+  const newCharacter = await create(name, cartoon)
 
   return res.status(201).json(newCharacter);
 });
@@ -42,7 +42,7 @@ app.put('/characters/:id', async (req, res) => {
   const {id} = req.params;
   const {name, cartoon} = req.body;
 
-  const editedCharacter = await characterModel.edit(id, name, cartoon);
+  const editedCharacter = await edit(id, name, cartoon);
   
   return res.status(200).json(editedCharacter)
 });
@@ -51,7 +51,7 @@ app.put('/characters/:id', async (req, res) => {
 app.delete('/characters/:id', async (req, res) => {
   const {id} = req.params;
 
-  await characterModel.exclude(id)
+  await exclude(id);
 
   return res.status(200).json({message: 'Success delete'})
 });

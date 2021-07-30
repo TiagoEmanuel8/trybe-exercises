@@ -1,7 +1,7 @@
 const checkToken = (req, res, next) => {
   const tokenRegexCheck = /^\w{12}/i;
 
-  const { authorization: token } = req.headers;
+  const { authorization: token } = req.headers; // forma de renomear a chave authorization para token
 
   console.log(token);
   
