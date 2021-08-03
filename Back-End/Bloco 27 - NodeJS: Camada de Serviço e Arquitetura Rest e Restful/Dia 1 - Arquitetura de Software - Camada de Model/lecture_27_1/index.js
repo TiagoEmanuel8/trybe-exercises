@@ -5,7 +5,7 @@ const { getAll, findOne, create, exclude, edit } = require('./model/mongoModel')
 const app = express()
 const PORT = 3000
 
-app.use(bodyParser.json())
+app.use(bodyParser.json());
 
 // Read (Crud) - lista todos os personagens => união do model + node
 // Função que vai mostrar tudão no BD
