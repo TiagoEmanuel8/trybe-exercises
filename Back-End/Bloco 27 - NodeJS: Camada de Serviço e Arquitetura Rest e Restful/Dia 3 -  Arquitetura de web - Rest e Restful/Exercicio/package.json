@@ -10,7 +10,7 @@
     "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "Tiago",
+  "author": "Tiago Emanuel",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
