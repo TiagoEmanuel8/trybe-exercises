@@ -2,7 +2,7 @@ const SongModel = require('../models/songModel')
 const SongService = require('../services/songServices')
 
 const findAllSongs = async (_req, res, next) => {
-  // Essa maravilha de try/catch 'bane' o rescue
+  // Essa maravilha de try/catch 'bane' o rescue, mas rescue > try/catch
   try{
     const songs = await SongService.listAll();
 

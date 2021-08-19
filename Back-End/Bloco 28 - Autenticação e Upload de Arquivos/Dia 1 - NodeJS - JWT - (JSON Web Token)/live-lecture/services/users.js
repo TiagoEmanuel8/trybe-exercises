@@ -2,6 +2,7 @@
 const jwt = require('jsonwebtoken');
 const { findUser, insertUser } = require('../models/users');
 // 2 => armazenar uma senha
+// const SECRET = 'senhamuitolonga'
 const SECRET = process.env.JWT_SECRET
 // 3 => config do jwt
 const jwtConfig = {
@@ -17,7 +18,7 @@ const findUserService = async (username, password) => {
   const userSearch = await findUser(username);
 
   if (!userSearch || userSearch.password !== password) return (
-    { status: 401, message: 'Usuário não existe ou senha inválida' } // boa prática de sec. 
+    { status: 401, message: 'Usuário não existe ou senha inválida' } // boa prática de seculo. 
   );
     // 4.1 => objeto para retirar a senha do token do user - dica de datasec
   const { password: _, ...userWithoutPassword } = userSearch;

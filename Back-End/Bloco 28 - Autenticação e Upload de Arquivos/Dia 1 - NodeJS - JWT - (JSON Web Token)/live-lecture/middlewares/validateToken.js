@@ -22,7 +22,7 @@ const validateToken = async (req, res, next) => {
     // se deu certo
     const { password, ...userWithoutPassword } = user; // removo a senha, questao de infosec (pra que deixar a senha trafegando pela aplicação se ela existe chance dela vazar)
 
-    req.user = userWithoutPassword; // só tem o user, mas sem a senha
+    req.user = userWithoutPassword; // só tem o user, mas sem a senha,
 
     next();
   } catch (err) { // no erro vai vir uma mensagem de erro
