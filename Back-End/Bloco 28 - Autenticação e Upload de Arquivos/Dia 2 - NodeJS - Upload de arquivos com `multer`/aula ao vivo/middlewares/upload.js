@@ -1,9 +1,10 @@
-// configurar o multer (após usar o npm i multer)
+// 1.3 garantir que os uploads vao ser criados no lugar certo
 const path = require('path');
+// configurar o multer (após usar o npm i multer)
 const multer = require('multer');
-// 1.2 - Esse método JOIN serve para acertar exatamente onde a pasta está
+// 1.2 - Esse método JOIN serve para acertar exatamente onde a pasta está - dirname é a pasta que estou, o .. sobe 1 nivel e cria a pasta
 const UPLOADS_FOLDER = path.join(__dirname, '..', 'uploads'); // OUTRA VANTAGEM DO JOIN: é útil para qualquer SO, 
-
+// Aqui é uma forma de apenas ler o arquivo que está em disco, sem me preocupar
 const memoryStorage = multer.memoryStorage();
 const originalNameStorage = multer.diskStorage({
   destination: UPLOADS_FOLDER,

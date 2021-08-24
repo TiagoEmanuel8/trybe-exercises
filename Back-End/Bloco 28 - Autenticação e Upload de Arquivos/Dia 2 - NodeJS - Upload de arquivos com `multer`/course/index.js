@@ -11,10 +11,11 @@ const upload = multer ({ storage })
 
 // 5 - melhorar o nome dos arquivos no upload com diskstorage
 const storage = multer.diskStorage({
+  // 1º parametro => destinio da imagem
   destination: (req, file, callback) => {
     callback(null, 'uploads/') // esse nome tem que bater com o nome da pasta de destino
   },
-  // esse é um campo no array
+  // 2º parametro => esse é um campo no array para personalizar a info
   filename: (req, file, callback) => {
     // essa forma é colocar uma data
     callback(null, Date.now() + "-" + file.originalname);
@@ -32,6 +33,8 @@ app.post("/upload", upload.single('arquivo'), (req, res) => { // esse upload atu
   console.log(req.body, req.file);
 
   res.send("Ok")
+
+  //4.1 ia chamar como 'arquivo' dentro do 'body' do post
 });
 
 app.listen(PORT, () => {
