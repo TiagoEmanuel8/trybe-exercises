@@ -179,7 +179,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 25-1: _Aggregation Framework - Parte 1_
 - [x] 25-2: _Aggregation Framework - Parte 2_
-- [x] 25-3: _[Projeto - Aggregations](https://github.com/tryber/sd-09-mongodb-aggregations/pull/63)_
+- [x] 25-3: _[Projeto - Aggregations](https://github.com/tryber/sd-010-a-mongodb-aggregations/pull/12)_
 
 ##### Bloco 26: Intro - Introdução ao desenvolvimento Web com NodeJS :heavy_check_mark:
 
@@ -188,7 +188,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 26-3: _NodeJS - Testes com NodeJS_
 - [x] 26-4: _Express: HTTP com Node.js_
 - [x] 26-5: _Praticando Express_
-- [x] 26-6: _[Projeto - talker-manager](https://github.com/tryber/sd-09-project-talker-manager/pull/85)_
+- [x] 26-6: _[Projeto - talker-manager](https://github.com/tryber/sd-010-a-project-talker-manager/pull/39)_
 
 ##### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful :heavy_check_mark:
 
@@ -196,7 +196,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 27-2: _Arquitetura de Software - Camada de Controller e Service_
 - [x] 27-3: _Arquitetura de web - Rest e Restful_
 - [x] 27.4: _Arquitetura de Software - Testando as Camadas_
-- [x] 27-5: _[Projeto - Store Manager](https://github.com/tryber/sd-09-store-manager/pull/63)_
+- [x] 27-5: _[Projeto - Store Manager]()_
 
 
 ##### Bloco 28: Autenticação e Upload de Arquivos
@@ -208,8 +208,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 29: Deployment
 
-- [ ] 29-1: _Introdução - Deploy com Heroku_
-- [ ] 29-2: _Deply - Gerenciadores de Processos_
+- [x] 29-1: _Introdução - Deploy com Heroku_
+- [ ] 29-2: _Deploy - Gerenciadores de Processos_
 - [ ] 29-3: _[Projeto - Stranger Things]()_
 
 ##### Bloco 30: Projeto Trybeer
