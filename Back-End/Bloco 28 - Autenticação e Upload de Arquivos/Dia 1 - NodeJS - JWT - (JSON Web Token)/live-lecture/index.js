@@ -22,6 +22,6 @@ app.post('/api/login', login);
 // 6.2 => para criar o produto, deve passar pelo token válido
 app.post('/api/products', validateToken, createProduct);
 
-const PORT = 3000;
+const PORT = 3001;
 
 app.listen(PORT, () => console.log(`Conectado na porta ${PORT}`));

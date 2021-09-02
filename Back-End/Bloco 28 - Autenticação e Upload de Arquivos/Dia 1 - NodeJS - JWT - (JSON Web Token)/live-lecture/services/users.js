@@ -11,17 +11,20 @@ const jwtConfig = {
 }
 
 const findUserService = async (username, password) => {
+  console.log(password)
   if (!username || !password) return (
     { status: 401, message: 'É necessário usuário e senha para fazer login' }
   );
 
   const userSearch = await findUser(username);
+  console.log(userSearch);
 
   if (!userSearch || userSearch.password !== password) return (
     { status: 401, message: 'Usuário não existe ou senha inválida' } // boa prática de seculo. 
   );
     // 4.1 => objeto para retirar a senha do token do user - dica de datasec
   const { password: _, ...userWithoutPassword } = userSearch;
+  console.log(password);
     // 4 => gerando o jwt, completão
   const token = jwt.sign(userWithoutPassword, SECRET, jwtConfig);
     // 5 => retornando o token
