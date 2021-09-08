@@ -1,9 +1,9 @@
-use bios;
-db.bios.find();
+use test;
+db.books.find();
 
 // Exercício 1 : Retorne o documento com o _id igual a 8.
-
-db.bios.find( { _id: 8 } );
+use ('test');
+db.books.find();
 
 // Exercício 2 : Retorne o documento com o _id igual a 8, mas só exiba os atributos: _id e name .
 

@@ -1,0 +1,8 @@
+use('test');
+db.sales.find();
+
+use('test');
+db.books.find();
+
+use('test');
+db.authors.find();
