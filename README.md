@@ -198,7 +198,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 27.4: _Arquitetura de Software - Testando as Camadas_
 - [x] 27-5: _[Projeto - Store Manager]()_
 
-
 ##### Bloco 28: Autenticação e Upload de Arquivos
 
 - [x] 28-1: _NodeJS - JWT - (JSON Web Token)_
@@ -212,66 +211,66 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 29-2: _Deploy - Gerenciadores de Processos_
 - [ ] 29-3: _[Projeto - Stranger Things]()_
 
-##### Bloco 30: Projeto Trybeer
+##### Bloco 30: Arquitetura: SOLID e ORM
 
-- [ ] 30-1: _[Projeto - Trybeer]()_
+- [x] 30-1: _Arquitetura - Princpios SOLID_
+- [ ] 30-2: _ORM - Interface da aplicação com o banco de dados_
+- [ ] 30-3: _ORM - Associations_
+- [ ] 30-4: _[Projeto - API de Blogs]()_
 
-##### Bloco 31: Arquitetura: SOLID e ORM
+##### Bloco 31: Sockets
 
-- [x] 32-1: _Arquitetura - Princpios SOLID_
-- [ ] 32-2: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 32-3: _ORM - Associations_
-- [ ] 32-4 _Boas práticas na escrita de testes_
-- [ ] 32-5: _[Projeto - API de Blogs]()_
+- [ ] 31-1: Arquitetura de Software - Camada de View_
+- [ ] 31-2: _Sockets - TCP/UDP & NET_
+- [ ] 31-3: _Sockets - Socket.io_
+- [ ] 31-4: _Praticando - Socket.io_
+- [ ] 31-5: _[Projeto - Webchat]()_
 
-##### Bloco 32: Sockets
+##### Bloco 32: Projeto App de Delivery
 
-- [ ] 30-1: _Sockets - TCP/UDP & NET_
-- [ ] 30-2: _Sockets - Socket.io_
-- [ ] 30-3: _[Projeto - Webchat]()_
-
-##### Bloco 33: Projeto Trybeer 2
-
-- [ ] 34-1: _[Projeto - Trybeer V2]()_
-
-##### Bloco 34: Arquitetura de Computadores e Redes
-
-- [ ] 30-1: _Arquitetura de Computadores_
-- [ ] 34-2: _Arquitetura de redes_
-- [ ] 34-3: _Redes de computadores, ferramentas e segurança_
-- [ ] 30-4: _[Projeto - Explorando os protocolos]()_
+- [ ] 32-1: _[Projeto - App de Delivery]()_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
-##### Bloco 35: Introdução a Python e Raspagem de Dados da Web
+##### Bloco 33: Introdução a Python
 
-- [ ] 35-1: _Aprendendo Python_
-- [ ] 35-2: _Testes e Exceções_
-- [ ] 35-3: _Entrada e Saída de dados_
-- [ ] 36-4: _Raspagem de dados_
-- [ ] 35-5: _[Projeto - Tech news]()_
+- [ ] 33-1: _Aprendendo Python_
+- [ ] 33-2: _Entrada e Saída de dados_
+- [ ] 33-3: _Testes_
+- [ ] 33-4: _[Projeto - Job Insights]()_
 
-##### Bloco 36: Programação Orientada a Objetos e Padrões de Projeto
+##### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto
 
-- [ ] 35-1: _Introdução a programação orientada a objetos_
-- [ ] 35-2: _Programação orientada a objetos na prática_
-- [ ] 35-3: _Padrõs de projeto_
-- [ ] 35-4: _[Projeto - Relatório de Estoque]()_
+- [ ] 34-1: _Introdução a programação orientada a objetos_
+- [ ] 34-2: _Herança, Composição e Interfaces_
+- [ ] 34-3: _Padrõs de projeto_
+- [ ] 34-4: _[Projeto - Relatório de Estoque]()_
 
-##### Bloco 37: Algoritmos e Estruturs de Dados
+##### Bloco 35: Redes e Raspagem de Dados
 
-- [ ] 35-1: _Estrutura de Dados 1 - Arrays_
-- [ ] 35-2: _Estrutura de Dados 1 - Complexidade de Algoritmos_
-- [ ] 35-3: _Recursividade e Estratégias para solução de problemas_
-- [ ] 35-4: _Algoritmos de ordenação e busca_
-- [ ] 35-5: _[Projeto - Algoritmos]()_
+- [ ] 35-1: _Arquitetura de Computadores_
+- [ ] 35-2: _Redes de computadores, ferramentas e segurança_
+- [ ] 35-3: _Raspagem de Dados_
+- [ ] 35-4: _[Projeto - Tech news]()_
 
+##### Bloco 36: Algoritmos
 
-##### Bloco 38: Estrutura de Dados: Hash e Set
+- [ ] 36-1: _Complexidade de Algoritmos_
+- [ ] 36-2: _Recursividade e Estratégias para solução de problemas_
+- [ ] 36-3: _Algoritmos de ordenação e busca_
+- [ ] 36-4: _[Projeto - Algoritmos]()_
 
-- [ ] 35-1: _Estrutura de Dados 2 - Arrays_
-- [ ] 35-2: _Estrutura de Dados 2 - Set_
+##### Bloco 37: Estrutura de Dados 1: Arrays. Hashmaps e Sets
 
-##### Bloco 38: Estrutura de Dados: Hash e Set
+- [ ] 37-1: _Arquitetura de Computadores_
+- [ ] 37-2: _Arrays_
+- [ ] 37-3: _Hasmap e Dict_
+- [ ] 37-4: _Set_
+- [ ] 37-5: _[Projeto - Restaurant Orders]()_
 
-- [ ] 35-1: _Projeto - Restaurant Orders_
+##### Bloco 38: Estrutura de Dados: Listas, Filas e Pilhas
+
+- [ ] 38-1: _Nó e Listas Encadeadas_
+- [ ] 38-2: _Deque_
+- [ ] 38-3: _Pilhas_
+- [ ] 38-4: _[Projeto - TING - Trybe Is Not Google]()_
