@@ -1,6 +1,6 @@
 const UserModel = require('../models/User');
 
-// essa função aqui é o princípio do O, onde cada vez que precisar criar uma nova categoria de usuario eu só acrescento um campo no array
+// essa função aqui é o princípio do O, onde cada vez que precisar criar uma nova categoria de usuario eu só acrescento um campo no array fefeef
 
 const isRoleValid = (role, validRoles) => {
   return validRoles.includes(role);
