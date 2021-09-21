@@ -1323,6 +1323,11 @@
   "resolved" "https://registry.npmjs.org/chardet/-/chardet-0.7.0.tgz"
   "version" "0.7.0"
 
+"choco@^0.2.1":
+  "integrity" "sha1-arby+zooHu/dYZxlLLkLNoYeQq8="
+  "resolved" "https://registry.npmjs.org/choco/-/choco-0.2.1.tgz"
+  "version" "0.2.1"
+
 "chokidar@^3.2.2":
   "integrity" "sha512-ekGhOnNVPgT77r4K/U3GDhu+FQ2S8TnK/s2KbIGXi0SZWuwkZ2QNyfWdZW+TVfn84DpEP7rLeCt2UI6bJ8GwbQ=="
   "resolved" "https://registry.npmjs.org/chokidar/-/chokidar-3.5.2.tgz"
@@ -4954,6 +4959,11 @@
   "version" "5.0.1"
   dependencies:
     "xmlchars" "^2.2.0"
+
+"scoop@^0.0.2":
+  "integrity" "sha1-463HEcYqjac03IY00L+LtGmyQtc="
+  "resolved" "https://registry.npmjs.org/scoop/-/scoop-0.0.2.tgz"
+  "version" "0.0.2"
 
 "semver-diff@^3.1.1":
   "integrity" "sha512-GX0Ix/CJcHyB8c4ykpHGIAvLyOwOobtM/8d+TQkAd81/bEjgPHrfba41Vpesr7jX/t8Uh+R3EX9eAS5be+jQYg=="
