@@ -77,9 +77,9 @@ const { default: axios } = require('axios');
 //   return regexCEP.test(cep);
 // }
 
-// consultaCEP('itaberaba');
+// consultaCEP('itaberaba'); => !==
 
-//-------------------------------------------------
+//------------------------------------------------- !== => ->
 
 // D - soliD - inversão de dependencia
 // no exemplo abaixo quero usar 2 apis
