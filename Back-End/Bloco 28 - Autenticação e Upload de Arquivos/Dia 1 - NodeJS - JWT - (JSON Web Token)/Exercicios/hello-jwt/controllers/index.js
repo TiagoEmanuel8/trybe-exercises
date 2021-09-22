@@ -1,7 +1,5 @@
 const ping = require('./ping');
-const registerUser = require('./registerUser');
+const login = require('./login');
+const register = require('./register');
 
-module.exports = {
-  ping,
-  registerUser,
-};
+module.exports = { ping, login, register };
