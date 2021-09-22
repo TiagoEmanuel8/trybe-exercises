@@ -198,12 +198,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 27.4: _Arquitetura de Software - Testando as Camadas_
 - [x] 27-5: _[Projeto - Store Manager](https://github.com/tryber/sd-010-a-store-manager/pull/11)_
 
-##### Bloco 28: Autenticação e Upload de Arquivos
+##### Bloco 28: Autenticação e Upload de Arquivos :heavy_check_mark:
 
 - [x] 28-1: _NodeJS - JWT - (JSON Web Token)_
 - [x] 28-2: _NodeJS - Upload de arquivos com Multer_
 - [x] 28-3: _NodeJS - Testando APIs com Testes de Integração_
-- [ ] 28-3: _[Projeto - Cookmaster]()_
+- [x] 28-3: _[Projeto - Cookmaster](https://github.com/tryber/sd-010-a-cookmaster/pull/7)_
 
 ##### Bloco 29: Deployment
 
