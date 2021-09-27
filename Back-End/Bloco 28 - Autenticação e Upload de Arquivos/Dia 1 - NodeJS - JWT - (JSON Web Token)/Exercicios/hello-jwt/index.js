@@ -5,7 +5,7 @@ const rescue = require('express-rescue');
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const { authBasic } = require('./auth/authMiddlewares');
+// const { authBasic } = require('./auth/authMiddlewares');
 
 const { PORT } = process.env;
 
