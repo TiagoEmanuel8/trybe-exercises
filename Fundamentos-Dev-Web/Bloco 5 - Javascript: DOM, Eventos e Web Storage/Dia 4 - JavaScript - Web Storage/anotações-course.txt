@@ -1,0 +1,34 @@
+Funções de manipulação
+
+Obs: Vale lembrar que as funções para localStorage e sessionStorage são semelhantes
+
+Adicionando item ao LocalStorage e SessionStorage
+
+		Sintaxe: localStorage.setItem(‘chave’, valor)
+		Exemplo: localStorage.setItem('time', 'Sport Clube do Recife');
+
+Acessando item ao LocalStorage e SessionStorage
+
+  Sintaxe: localStorage.getItem(‘chave’);
+  Exemplo: localStorage.getItem('time');
+
+Uma simples Manipulação com o let
+
+		let football = localStorage.getItem('time')
+
+Removendo item ao LocalStorage e SessionStorage
+
+  Sintaxe: localStorage.removeItem(chave);
+  Exemplo: localStorage.removeItem('time');
+
+Deletando TOTALMENTE o localStorage/sessionStorage
+
+  localStorage.clear() e sessionStorage.clear()
+
+Manipulação de JSON
+
+  JSON.parse(): transforma JSON em string. Útil para usar PEGAR dados da localStorage para posterior manipulação.
+    Exemplo de uso: const exemplo = JSON.parse(localStorage.getItem('valor_chave'));
+
+  JSON.stringfy(): transforma o string em JSON. Útil para ENVIAR dados do código e salvar na localStorage.
+    Exemplo de uso: const exemplo = JSON.stringfy(localStorage.setItem('valor_chave'));
