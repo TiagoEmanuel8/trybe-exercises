@@ -205,11 +205,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 28-3: _NodeJS - Testando APIs com Testes de Integração_
 - [x] 28-3: _[Projeto - Cookmaster](https://github.com/tryber/sd-010-a-cookmaster/pull/7)_
 
-##### Bloco 29: Deployment
+##### Bloco 29: Deployment :heavy_check_mark:
 
 - [x] 29-1: _Introdução - Deploy com Heroku_
 - [x] 29-2: _Deploy - Gerenciadores de Processos_
-- [ ] 29-3: _[Projeto - Stranger Things]()_
+- [x] 29-3: _[Projeto - Stranger Things Back-end](https://github.com/tryber/sd-010-a-stranger-things-backend/pull/6)_
+- [x] 29-3: _[Projeto - Stranger Things Front-end](https://github.com/tryber/sd-010-a-stranger-things-frontend/pull/1)_
 
 ##### Bloco 30: Arquitetura: SOLID e ORM
 
