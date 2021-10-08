@@ -1,0 +1,9 @@
+// Essa lib é para localizar os arquivos mais facilmentet
+const path = require('path');
+
+module.exports = {
+  'config': path.resolve('src', 'config', 'config.json'), // disse a pasta, subpasta + arquivo, que o config vai estar
+  'models-path': path.resolve('src', 'models'),
+  'seeders-path': path.resolve('src', 'seeders'),
+  'migrations-path': path.resolve('src', 'migrations'),
+}

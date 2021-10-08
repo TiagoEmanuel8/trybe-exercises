@@ -1,0 +1,20 @@
+1 - Instalar o basicão de sequelize com os comandos
+  * npm init -y
+  * npm i express nodemon body-parser
+  * npm i sequelize
+  * npm i mysql2
+  * npm i --save-dev sequelize-cli
+1.2 - configurar a pasta config o arquivo config.json
+  * alterar o username + password para os que cadastrei previamente
+  * criar um BD no mySql e alterar o campo database
+
+
+----------------------- DATASEC EM SEQUELIZE -------------------------
+1.3 - mas o config.json tem muita informação sensível 
+1.4 - dentro desse arquivo existem informações muuuuuito sensíveis então o ideal é ocultar essas informações com a lib dotenv
+  * criar o arquivo config.js
+  * alterar a const config do index.js na model, para receber o arquivo config.js
+1.5 - Alterar a estrutura do sequelize 
+  * criar uma pasta SRC em na raiz e mover as pastas config, migrations, model, seeders
+  * criar o arquivo .sequelizerc
+  * dentro desse arquivo coloco uma config para apontar para o NOVO local dos arquivos 

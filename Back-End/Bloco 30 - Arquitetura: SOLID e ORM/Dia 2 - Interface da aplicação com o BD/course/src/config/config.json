@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "colocar aqui o nome de usuário do BD",
+    "password": "colocar aqui a senha do BD",
+    "database": "faz referencia ao BD",
+    "host": "colocar aqui o número do host",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
