@@ -1,4 +1,4 @@
-const readline = require('readline-sync');
+import { keyInSelect } from 'readline-sync';
 
 const scripts = [
   { name: 'Calcular IMC', script: './imc.js' },
@@ -6,7 +6,7 @@ const scripts = [
   { name: 'Jogo de adivinhação', script: './sorteio.js' },
 ];
 
-const numeroScriptEscolhido = readline.keyInSelect(scripts.map(({ name }) => name),
+const numeroScriptEscolhido = keyInSelect(scripts.map(({ name }) => name),
   'Qual script deseja? ');
 
 const scriptEscolhido = scripts[numeroScriptEscolhido];
