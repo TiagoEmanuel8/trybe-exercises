@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "Nome_de_Usuário",
+    "password": "Senha_BD.",
+    "database": "Nome_BD",
+    "host": "Host_BD",
+    "dialect": "mysql"
+  }
+}
