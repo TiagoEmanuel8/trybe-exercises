@@ -13,16 +13,17 @@
         - criar o arquivo `.sequelizerc` para apontar para a nova pasta. ver a estrutura já pronta desse projeto, pois ela vai sempre se repetir.
 
 - [ ] Iniciando o `Sequelize`.
-        - `npx sequelize db:create` => Criando um BD
-        - [ ] conferindo se a tabela foi criada =>
+        - `npx sequelize db:create` => Criando um BD.
+        - [ ] conferindo se a tabela foi criada.
           - checar se a tabela foi criada usar o `MySql WorkBranch` ou a extensão `Database do VScode`
           - `mysql -u root -proot -e 'SHOW DATABASES'` => vou acessar o user root e exibier as tabelas.
-          - `mysql -u root -p root -e 'SHOW DATABASES'` => ai nesse caso vou ter que digitar a senha ... é mais seguro
+          - `mysql -u root -p root -e 'SHOW DATABASES'` => ai nesse caso vou ter que digitar a senha ... é mais seguro.
 
 - [ ] Definindo nosso `Models`.
         - Usar o comando `npx sequelize model:generate --name Store --attributes name:string description:string`
           - Lembrando que esse código também cria a `migration`.
           - Nesse exemplo vai criar uma `model/table` com o nome `Store` e as colunas `name e description`, ambas como `string`.
+          - A partir daqui posso modelar a `Models` de acordo com o que quiser.
 
 - [ ] Definindo nossa `Migrations`
         - lembrando que essa pasta é a representação das `colunas` de uma tabela
