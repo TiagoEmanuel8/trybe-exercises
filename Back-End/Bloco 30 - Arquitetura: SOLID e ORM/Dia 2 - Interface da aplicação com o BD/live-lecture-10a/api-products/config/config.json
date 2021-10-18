@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "api_products_dev",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
