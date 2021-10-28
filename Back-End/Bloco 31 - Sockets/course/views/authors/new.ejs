@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>MVC com Express</title>
+  </head>
+  <body>
+    <!-- 6.3 essa verificação exibe uma mensagem se houver, caso contrário não exibe o forms -->
+    <% if (message) { %>
+      <div><%= message %></div>
+    <% } %>
+      
+    <form action="/authors" method="POST"> <!-- Chamo o método POST -->
+      <label for="first_name">Nome:</label>
+      <input id="first_name" name="first_name" type="text" /> <!-- campo 'name' vai ser recebido no req.body no lado do back end -->
+      <label for="middle_name">Nome do meio:</label>
+      <input id="middle_name" name="middle_name" type="text" />
+      <label for="last_name">Sobrenome:</label>
+      <input id="last_name" name="last_name" type="text" />
+      <button type="submit">Criar novo autor!</button> <!-- Esse botão dispara a ação, o tipo submit já abstrai essa parte da lógica -->
+    </form>
+
+    <a href="/authors">Voltar para página inicial</a>
+  </body>
+</html>

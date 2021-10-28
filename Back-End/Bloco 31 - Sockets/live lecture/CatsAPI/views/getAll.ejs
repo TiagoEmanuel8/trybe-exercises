@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>Gatos</title>
+</head>
+<body>
+  <!-- 1.6 - a mensagem que passei será exibida aqui -->
+  <% if (message) { %> <!-- em hof e if não precisa usar <%= -->
+    <h1><%= message %></h1> <!-- mas para exibir algo precisa do <%= -->
+  <% } %>
+
+    <!-- 1.7 - O array será tratado e exibido aqui -->
+  <% cats.forEach(cat => { %>
+    <li><a href="/cats/<%= cat.id %>"><%= cat.name %></a></li> <!-- 1.8 - renderizo como uma lista de links, que se clicados ja fazem o getById -->
+  <% }) %>
+
+  <ul style="background-color: antiquewhite">
+  </ul>
+
+  <!-- 2 - Já vou disparar a função create -->
+  <form action="/cats" method="POST"> <!-- 2.1 - dizer que é um método POST -->
+    <input name="name" type="text"> <!-- 2.2 - lembrar que name é o próprio req.body do back end -->
+    <input name="age" type="number">
+    <button type="submit">Criar novo gato!</button> <!-- 2.3 - Esse submit dispara a função create -->
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <title>MVC - Exemplo</title>
+  </head>
+  <body>
+    <ul>
+      <!-- 5 - vou tratar o retorno da função render() -->
+      <% authors.forEach((author) => { %> <!-- recebe o array e aplico a hof -->
+        <li><%= author.name %></li> <!-- renderizo os nomes dos autores numa lista -->
+        <a href=<%= `/authors/${author.id}` %>>Ver detalhes</a>
+      <% }) %> <!-- fechar as chaves -->
+    </ul>
+    <a href="/authors/new">Criar novo autor</a>
+  </body>
+</html>
