@@ -212,16 +212,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 29-3: _[Projeto - Stranger Things Back-end](https://github.com/tryber/sd-010-a-stranger-things-backend/pull/6)_
 - [x] 29-3: _[Projeto - Stranger Things Front-end](https://github.com/tryber/sd-010-a-stranger-things-frontend/pull/1)_
 
-##### Bloco 30: Arquitetura: SOLID e ORM
+##### Bloco 30: Arquitetura: SOLID e ORM :heavy_check_mark:
 
 - [x] 30-1: _Arquitetura - Princpios SOLID_
 - [x] 30-2: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 30-3: _ORM - Associations_
-- [ ] 30-4: _[Projeto - API de Blogs]()_
+- [x] 30-3: _ORM - Associations_
+- [x] 30-4: _[Projeto - API de Blogs](https://github.com/tryber/sd-010-a-project-blogs-api/pull/7)_
 
 ##### Bloco 31: Sockets
 
-- [ ] 31-1: Arquitetura de Software - Camada de View_
+- [ ] 31-1: Arquitetura de Software - Camada de View
 - [ ] 31-2: _Sockets - TCP/UDP & NET_
 - [ ] 31-3: _Sockets - Socket.io_
 - [ ] 31-4: _Praticando - Socket.io_
