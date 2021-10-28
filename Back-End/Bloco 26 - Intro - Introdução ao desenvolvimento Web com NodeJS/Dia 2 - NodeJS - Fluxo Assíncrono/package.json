@@ -5,7 +5,8 @@
   "main": "couse-sempromisse.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "semPromisse": "node semPromisse.js"
+    "semPromisse": "node semPromisse.js",
+    "comPromisse": "node comPromisse.js"
   },
   "author": "",
   "license": "ISC",

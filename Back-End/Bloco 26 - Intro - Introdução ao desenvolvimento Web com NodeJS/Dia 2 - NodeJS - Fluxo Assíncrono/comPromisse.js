@@ -16,7 +16,6 @@ dividirNumeros(2, 1)
   .then(result => console.log(`sucesso: ${result}`))
   .catch(err => console.log(`erro: ${err.message}`));
 
-
   // 1 Construindo a promisse com a sintaxe
   const p = new Promise((resolve, reject) => {
     // Aqui é onde vamos realizar a lógica que precisamos
@@ -36,10 +35,11 @@ function readFilePromise (fileName) {
 }
 
   // 3 Tratamento de acerto e erro
-  readFilePromise('./file.txt') // A função me promete que vai ler o arquivo
+  readFilePromise('../file.txt') // A função me promete que vai ler o arquivo
   .then((content) => { // Caso ela cumpra o que prometeu
     console.log(`Lido arquivo com ${content.byteLength} bytes`); // Escrevo o resultado no console
   })
   .catch((err) => { // Caso ela não cumpra o que prometeu
-    console.error(`Erro ao ler arquivo: ${err.message}`); // Escrevo o erro no console
+    // console.error(err); // Escrevo o erro no console
+    // console.error(`Erro ao ler arquivo: ${err.message}`);
   });
