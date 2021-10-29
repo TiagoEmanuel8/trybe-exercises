@@ -222,7 +222,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 31: Sockets
 
 - [x] 31-1: Arquitetura de Software - Camada de View
-- [ ] 31-2: _Sockets - TCP/UDP & NET_
+- [x] 31-2: _Sockets - TCP/UDP & NET_
 - [ ] 31-3: _Sockets - Socket.io_
 - [ ] 31-4: _Praticando - Socket.io_
 - [ ] 31-5: _[Projeto - Webchat]()_
