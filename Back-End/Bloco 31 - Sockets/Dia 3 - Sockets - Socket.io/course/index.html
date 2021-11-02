@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Socket.IO - Trybe</title>
+    <!-- 1 - chamo a lib do socket -->
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.js"></script>
+    <!-- 1.2 - esse script imprime quem se conecta na tela -->
+    <script>
+      const socket = io();
+    </script>
+  </head>
+  <body>
+
+    <!-- <ul id="mensagens"></ul> -->
+
+    <form action="">
+      <input id="mensagemInput" autocomplete="off">
+      <button type="submit">Send</button>
+    </form>
+      
+    <script>
+      // <!-- 5 - O objetivo aqui é pegar o que foi digitado e exibir no server -->
+      const socket = io();
+      const form = document.querySelector('form'); // pega o form
+      const inputMessage = document.querySelector('#mensagemInput'); // pega o input
+      form.addEventListener('submit', (e) => { // função do click
+        e.preventDefault(); // não quero que a página seja atualizada
+        socket.emit('mensagem', inputMessage.value); // captura a mensagem do input e a envia pro back end
+        inputMessage = '' // limpa o input
+        return false; // retorna
+
+
+        // 6 - Quando alguem se conectar quero exibir uma mensagem de boas vindas
+        const createMessage = (message) => {
+          const messagesUl = document.querySelector('#mensagens'); //acessa a lista
+          const li = document.createElement('li'); // cria uma li
+          li.innetText = message; // insere a msg na lista
+          messagesUl.appendChild(li); // sintaxe de filha
+        }
+
+        // 6 - Aqui vou capturar a msg vinda do back end
+        socket.on('message', (message) => createMessage(message));
+
+        
+
+      })
+    </script>
+  
+  </body>
+</html>

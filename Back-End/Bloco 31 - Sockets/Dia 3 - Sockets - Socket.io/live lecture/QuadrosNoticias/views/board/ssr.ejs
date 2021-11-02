@@ -1,0 +1,36 @@
+<!-- ssr significa montar o html do lado do server e mandar pronto pro front -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 1 - importa o arquivo com o socket -->
+  <script src='http://localhost:5000/socket.io/socket.io.js'></script>
+  <title>Quadro de Notícias</title>
+</head>
+<body>
+  <h1>Notícias</h1>
+
+  <!-- 5.1 - Vou tratar o array que veio do back e no fim a função la em baixo trata tudo -->
+  <ul id='news'>
+    <% notifications.forEach((notification) => { %>
+      <li><%= notification %></li>
+    <% }) %>
+  </ul>
+
+  <script>
+    // 2 - ja explicita a porta
+    const socket = io('http://localhost:5000');
+
+    // 3 - captura a mensagem notification que foi gerada no back e gera dinamicamente o elemento
+    socket.on('notification', (notification) => {
+      const li = document.createElement('li');
+      const liText = document.createTextNode(notification);
+      li.appendChild(liText);
+      document.getElementById('news').appendChild(li);
+    });
+
+  </script>
+</body>
+</html>

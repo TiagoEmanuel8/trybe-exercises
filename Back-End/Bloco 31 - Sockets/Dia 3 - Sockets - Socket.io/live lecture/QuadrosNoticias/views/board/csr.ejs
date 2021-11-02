@@ -1,0 +1,20 @@
+<!-- csr tem uma desvantagem que se o JS for desabilitado no navegador as informações não chegam, pois ele manda arquivos JS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 1 - Acesso a rota -->
+  <script src='http://localhost:3000/socket.io/socket.io.js'></script>
+  <link rel="stylesheet" href="http://localhost:3000/assets/csr.css">
+  <title>Quadro de Notícias</title>
+</head>
+<body>
+  <h1>Notícias</h1>
+
+  <ul id='news'></ul>
+
+  <script src='http://localhost:3000/assets/client.js'></script>
+</body>
+</html>
