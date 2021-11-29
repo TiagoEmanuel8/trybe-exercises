@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- 1 - importa o arquivo com o socket -->
+  <!-- 1.5 - importa o arquivo com o socket -->
   <script src='http://localhost:5000/socket.io/socket.io.js'></script>
   <title>Quadro de Notícias</title>
 </head>
@@ -13,18 +13,20 @@
   <h1>Notícias</h1>
 
   <!-- 5.1 - Vou tratar o array que veio do back e no fim a função la em baixo trata tudo -->
-  <ul id='news'>
-    <% notifications.forEach((notification) => { %>
+  <ul id='news'> <!-- 2.4 - Exibe a mensagem em forma de lista  - so isso ja funcionava-->
+    <% notifications.forEach((notification) => { <!-- %> 2.5 trata o array NEWS de backend -->
       <li><%= notification %></li>
     <% }) %>
   </ul>
 
   <script>
-    // 2 - ja explicita a porta
-    const socket = io('http://localhost:5000');
+    // 1.6 - ja explicita a porta
+    const socket = io('http://localhost:5000'); // é a porta do socket
 
-    // 3 - captura a mensagem notification que foi gerada no back e gera dinamicamente o elemento
+    // 1.9 - captura a mensagem notification que foi gerada no back e gera dinamicamente o elemento
     socket.on('notification', (notification) => {
+      // console.log(notification); // aqui a mensagem é exibida no console.log de todos os clientes
+      // 1.10 - usa o vanilaJS para exibir a msg na tela
       const li = document.createElement('li');
       const liText = document.createTextNode(notification);
       li.appendChild(liText);

@@ -6,7 +6,7 @@ const createLi = (notification) => {
   li.appendChild(liText);
   document.getElementById('news').appendChild(li);
 }
-// 6.1 - escutando a msg que veio do back
+// 3.2 - escutando a msg que veio do back e ja crio a lista
 socket.on('notification', createLi);
 // socket dispara varias msgs e io dispara so uma msg
 socket.on('loadNotifications', (notifications) => {
