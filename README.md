@@ -138,7 +138,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 19-1: _[Projeto - App de Receitas](https://github.com/tryber/sd-09-project-recipes-app/pull/69)_
 
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+## Desenvolvimento Back-end :heavy_check_mark:
 
 ##### Bloco 20: Introdução a SQL :heavy_check_mark:
 
@@ -219,17 +219,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 30-3: _ORM - Associations_
 - [x] 30-4: _[Projeto - API de Blogs](https://github.com/tryber/sd-010-a-project-blogs-api/pull/7)_
 
-##### Bloco 31: Sockets
+##### Bloco 31: Sockets :heavy_check_mark:
 
 - [x] 31-1: Arquitetura de Software - Camada de View
 - [x] 31-2: _Sockets - TCP/UDP & NET_
 - [x] 31-3: _Sockets - Socket.io_
-- [ ] 31-4: _Praticando - Socket.io_
-- [ ] 31-5: _[Projeto - Webchat]()_
+- [x] 31-4: _Praticando - Socket.io_
+- [x] 31-5: _[Projeto - Webchat](https://github.com/tryber/sd-010-a-project-webchat/pull/98)_
 
-##### Bloco 32: Projeto App de Delivery
+##### Bloco 32: Projeto App de Delivery :heavy_check_mark:
 
-- [ ] 32-1: _[Projeto - App de Delivery]()_
+- [x] 32-1: _[Projeto - App de Delivery](https://github.com/tryber/sd-010-a-project-delivery-app/pull/377)_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
