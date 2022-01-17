@@ -89,3 +89,84 @@ print(admin_user)
 # tupla - armazena diferentes informações mas de uma entidade
 # dicionário - Usa como um objeto de Js, aceita uma tupla como chave, mas nao aceita uma lista
 # conjunto - igual ao conjunto da regra de conjunto
+
+#--------------exemplos course --------------------
+
+# trabalhando com listas (arrays)
+fruits = ["orange", "apple", "grape", "pineapple"]
+print(fruits[0]) # acessa o primeiro item
+print(fruits[-1]) # acessa o ultimo item
+fruits.append("banana") # adicionando um item
+print(fruits)
+fruits.remove("pineapple") # removendo um item
+print(fruits)
+fruits.extend(["pear", "melon", "kiwi"]) # acrescenta uma lista de frutas a lista original
+print(fruits)
+
+fruits = ["orange", "apple", "grape", "pineapple"] # retorna o índice onde a fruta está localizada, neste caso 1
+encontra_indice = fruits.index("apple")
+print(encontra_indice)
+ordena_frutas = fruits.sort()  # ordena a lista de frutas
+print(ordena_frutas)
+
+# Tuplas - são iguais as listas, mas são imutáveis
+user = ("Cássio", "Botaro", 42)  # elementos são definidos separados por vírgula, envolvidos por parenteses
+print(user)
+user[0]  # acesso também por índices
+print(user[0])
+
+# Set(conjuntos) - Vai simular operação com conjuntos em matemática
+
+permissions = {"member", "group"}  # elementos separados por vírgula, envolvidos por chaves
+
+permissions.add("root")  # adiciona um novo elemento ao conjunto
+
+permissions.add("member")  # como o elemento já existe, nenhum novo item é adicionado ao conjunto
+
+permissions.union({"user"})  # retorna um conjunto resultado da união
+
+permissions.intersection({"user", "member"})  # retorna um conjunto resultante da intersecção dos conjuntos
+
+permissions.difference({"user"})  # retorna a diferença entre os dois conjuntos
+
+# Dict - Semelhante ao objeto de JS
+people_by_id = {
+    1: "Cássio",
+    2: "João",
+    3: "Felipe"
+}
+print(people_by_id)
+
+# outro exemplo, dessa vez usando strings como chaves (ao contrário de JS, as aspas duplas são obrigatórias)
+people_by_name = {
+    "Cássio": 1,
+    "João": 2,
+    "Felipe": 3
+}
+print(people_by_name)
+
+# elementos são acessados por suas chaves
+print(people_by_id[1])  # saída: Cássio
+
+# elementos podem ser removidos com a palavra chave del
+people_by_id = {
+    1: "Cássio",
+    2: "João",
+    3: "Felipe"
+}
+del people_by_id[1]
+print(people_by_id)
+
+# dict_items([(1, "Cássio"), (2, "João"), (3, "Felipe")])
+formata = people_by_id.items()
+print(formata)
+
+# range - faz um laço for
+# contagem crescente
+print(list(range(5)))
+# contagem definindo o 1º e o último número
+print(list(range(1, 6)))
+# contagem de 2 em 2
+list(range(1, 11, 2))
+# contagem decrescente
+list(range(10, 0, -1))
