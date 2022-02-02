@@ -236,9 +236,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 33: Introdução a Python
 
 - [x] 33-1: _Aprendendo Python_
-- [ ] 33-2: _Entrada e Saída de dados_
-- [ ] 33-3: _Testes_
-- [ ] 33-4: _[Projeto - Job Insights]()_
+- [x] 33-2: _Entrada e Saída de dados_
+- [x] 33-3: _Testes_
+- [x] 33-4: _[Projeto - Job Insights](https://github.com/tryber/sd-011-project-job-insights/pull/17)_
 
 ##### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto
 
