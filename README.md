@@ -256,10 +256,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 36: Algoritmos
 
-- [ ] 36-1: _Complexidade de Algoritmos_
-- [ ] 36-2: _Recursividade e Estratégias para solução de problemas_
-- [ ] 36-3: _Algoritmos de ordenação e busca_
-- [ ] 36-4: _[Projeto - Algoritmos]()_
+- [x] 36-1: _Complexidade de Algoritmos_
+- [x] 36-2: _Recursividade e Estratégias para solução de problemas_
+- [x] 36-3: _Algoritmos de ordenação e busca_
+- [x] 36-4: _[Projeto - Algoritmos](https://github.com/tryber/sd-011-project-algorithms/pull/35)_
 
 ##### Bloco 37: Estrutura de Dados 1: Arrays. Hashmaps e Sets
 
