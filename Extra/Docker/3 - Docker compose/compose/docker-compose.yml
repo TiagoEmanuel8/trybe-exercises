@@ -1,0 +1,18 @@
+version: '3'
+# em uma tacada crio o volume, imagem e porta
+services:
+  web:
+    # image: ubuntu/nginx:latest
+    image: . # vai referenciar o arquivo dockerfile
+    volumes:
+      - ./public_html:/usr/share/nginx/html
+    ports:
+      - 8080:80
+  db:
+    image: mysql:latest
+    env:
+      - MYSQL_ROOT_PASSWORD=root
+    ports:
+      - 33060:3306
+    volumes:
+      - ./db:/var/lib/mysql
