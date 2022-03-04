@@ -283,13 +283,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 1: _Utilizando Containers Docker_
 - [x] 2: _Manipulação e criação de imagens no docker_
-- [ ] 3: _Orquestrando containers com docker compose_
+- [x] 3: _Orquestrando containers com docker compose_
 - [x] 4: _[Projeto - Docker to do list](https://github.com/tryber/sd-011-project-docker-todo-list/pull/10)_
 
-##### Docker
+##### Typescript
 
 - [x] 1: _Introdução ao Typescript_
-- [x] 2: _Tipagem estática e generics_
+- [ ] 2: _Tipagem estática e generics_
 - [ ] 3: _Express com TypeScript_
 - [ ] 4: _[Projeto - Trybesmith]()_
 
