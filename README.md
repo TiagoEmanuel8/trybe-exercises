@@ -289,7 +289,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Typescript
 
 - [x] 1: _Introdução ao Typescript_
-- [ ] 2: _Tipagem estática e generics_
+- [x] 2: _Tipagem estática e generics_
 - [ ] 3: _Express com TypeScript_
 - [ ] 4: _[Projeto - Trybesmith]()_
 
