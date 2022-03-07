@@ -1,0 +1,6 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json", // extende o node14
+  "compilerOptions": {
+    "outDir": "./dist", // pasta onde o arquivo js será salvo
+  }
+}

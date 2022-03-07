@@ -243,23 +243,23 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto
 
 - [x] 34-1: _Introdução a programação orientada a objetos_
-- [ ] 34-2: _Herança, Composição e Interfaces_
-- [ ] 34-3: _Padrõs de projeto_
-- [ ] 34-4: _[Projeto - Relatório de Estoque]()_
+- [x] 34-2: _Herança, Composição e Interfaces_
+- [x] 34-3: _Padrõs de projeto_
+- [x] 34-4: _[Projeto - Relatório de Estoque](https://github.com/tryber/sd-011-inventory-report/pull/219)_
 
 ##### Bloco 35: Redes e Raspagem de Dados
 
-- [ ] 35-1: _Arquitetura de Computadores_
-- [ ] 35-2: _Redes de computadores, ferramentas e segurança_
-- [ ] 35-3: _Raspagem de Dados_
-- [ ] 35-4: _[Projeto - Tech news]()_
+- [x] 35-1: _Arquitetura de Computadores_
+- [x] 35-2: _Redes de computadores, ferramentas e segurança_
+- [x] 35-3: _Raspagem de Dados_
+- [x] 35-4: _[Projeto - Tech news](https://github.com/tryber/sd-011-tech-news/pull/16)_
 
 ##### Bloco 36: Algoritmos
 
-- [ ] 36-1: _Complexidade de Algoritmos_
-- [ ] 36-2: _Recursividade e Estratégias para solução de problemas_
-- [ ] 36-3: _Algoritmos de ordenação e busca_
-- [ ] 36-4: _[Projeto - Algoritmos]()_
+- [x] 36-1: _Complexidade de Algoritmos_
+- [x] 36-2: _Recursividade e Estratégias para solução de problemas_
+- [x] 36-3: _Algoritmos de ordenação e busca_
+- [x] 36-4: _[Projeto - Algoritmos](https://github.com/tryber/sd-011-project-algorithms/pull/35)_
 
 ##### Bloco 37: Estrutura de Dados 1: Arrays. Hashmaps e Sets
 
@@ -275,3 +275,21 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 38-2: _Deque_
 - [ ] 38-3: _Pilhas_
 - [ ] 38-4: _[Projeto - TING - Trybe Is Not Google]()_
+
+
+## Extra :heavy_check_mark:
+
+##### Docker
+
+- [x] 1: _Utilizando Containers Docker_
+- [x] 2: _Manipulação e criação de imagens no docker_
+- [x] 3: _Orquestrando containers com docker compose_
+- [x] 4: _[Projeto - Docker to do list](https://github.com/tryber/sd-011-project-docker-todo-list/pull/10)_
+
+##### Typescript
+
+- [x] 1: _Introdução ao Typescript_
+- [x] 2: _Tipagem estática e generics_
+- [ ] 3: _Express com TypeScript_
+- [ ] 4: _[Projeto - Trybesmith]()_
+
