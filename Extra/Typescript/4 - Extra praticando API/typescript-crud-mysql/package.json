@@ -1,0 +1,19 @@
+{
+  "name": "ts-mysql2-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.18"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "mysql2": "^2.3.3"
+  }
+}

@@ -1,3 +1,4 @@
+import * as RestaurantService from '../services/index'
 import { NextFunction, Request, Response } from 'express';
 import { Restaurant } from '../types/restaurant';
 
@@ -24,4 +25,7 @@ export const validateRestaurant = (req: Request, res: Response, next: NextFuncti
   next();
 };
 
-export const createRestaurant = (req: Request, res: Response) => res.status(201).json([]);
+export const createRestaurant = (req: Request, res: Response) => {
+  const restaurant: Restaurant = RestaurantService.createRestaurant(req.body);
+  return res.status(201).json(restaurant);
+}
