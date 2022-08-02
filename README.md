@@ -231,7 +231,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 32-1: _[Projeto - App de Delivery](https://github.com/tryber/sd-010-a-project-delivery-app/pull/377)_
 
-## Ciência da Computação :hourglass_flowing_sand:
+## Ciência da Computação :heavy_check_mark:
 
 ##### Bloco 33: Introdução a Python
 
@@ -263,18 +263,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 37: Estrutura de Dados 1: Arrays. Hashmaps e Sets
 
-- [ ] 37-1: _Arquitetura de Computadores_
-- [ ] 37-2: _Arrays_
-- [ ] 37-3: _Hasmap e Dict_
-- [ ] 37-4: _Set_
-- [ ] 37-5: _[Projeto - Restaurant Orders]()_
+- [x] 37-1: _Arquitetura de Computadores_
+- [x] 37-2: _Arrays_
+- [x] 37-3: _Hasmap e Dict_
+- [x] 37-4: _Set_
+- [x] 37-5: _[Projeto - Restaurant Orders](https://github.com/tryber/sd-011-restaurant-orders/pull/97)_
 
 ##### Bloco 38: Estrutura de Dados: Listas, Filas e Pilhas
 
-- [ ] 38-1: _Nó e Listas Encadeadas_
-- [ ] 38-2: _Deque_
-- [ ] 38-3: _Pilhas_
-- [ ] 38-4: _[Projeto - TING - Trybe Is Not Google]()_
+- [x] 38-1: _Nó e Listas Encadeadas_
+- [x] 38-2: _Deque_
+- [x] 38-3: _Pilhas_
+- [x] 38-4: _[Projeto - TING - Trybe Is Not Google](https://github.com/tryber/sd-011-project-ting/pull/33)_
 
 
 ## Extra :heavy_check_mark:
@@ -290,6 +290,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 1: _Introdução ao Typescript_
 - [x] 2: _Tipagem estática e generics_
-- [ ] 3: _Express com TypeScript_
+- [x] 3: _Express com TypeScript_
+- [x] 4: _[Projeto - Trybesmith]()_
+
+##### Javascript POO
+
+- [x] 1: _Introdução a Orientação a objetos
+- [ ] 2: _Herança e Interfaces_
+- [ ] 3: _Polimorfismo_
 - [ ] 4: _[Projeto - Trybesmith]()_
 
