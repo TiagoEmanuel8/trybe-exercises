@@ -296,7 +296,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Javascript POO
 
 - [x] 1: _Introdução a Orientação a objetos
-- [ ] 2: _Herança e Interfaces_
+- [x] 2: _Herança e Interfaces_
 - [ ] 3: _Polimorfismo_
 - [ ] 4: _[Projeto - Trybers and Dragons]()_
 - [ ] 5: _[Projeto - Trybe Futebol Clube]()_
